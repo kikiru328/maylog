@@ -85,11 +85,7 @@ const config: QuartzConfig = {
         enableRSS: true,
       }),
       Plugin.Assets(),
-      Plugin.Static(
-        {
-          include: ["robots.txt"],
-        }
-      ),
+      Plugin.Static(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
