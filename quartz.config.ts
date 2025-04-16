@@ -87,7 +87,7 @@ const config: QuartzConfig = {
       Plugin.Assets(),
       Plugin.Static(
         {
-          inlcude: ["robots.txt"],
+          include: ["robots.txt"],
         }
       ),
       Plugin.NotFoundPage(),
