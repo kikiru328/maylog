@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /secondary-storage
 created: 2025-04-22T00:09
-updated: 2025-04-24T10:34
+updated: 2025-05-07T16:24
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDBvcWU4MmNwNXowemI5ZDd6dGR2MnF5ZTBodDJmajV5Zmp0cGh0OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/101IgDtwWFQKti/giphy.gif
 ---
 <p align="center">
@@ -43,8 +43,8 @@ socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDBvcWU4MmNwNXowe
 ## RAID4
 
 RAID0, 1과 다르게 RAID4는 **패리티 정보를 저장하는 디스크를 따로 두는 구성**방식을 의미한다. **패리티, Parity**정보란 오류를 검출할 수 있는 정보를 의미한다. 즉, 오류 정보를 검출하는 장치가 있어 RAID1에 비해서 적은 디스크로도 안전하게 데이터를 보관할 수 있는 특징을 갖는다. 
-^parity-def
-
+ ^parity-def
+ 
 하지만 RAID4도 단점이 있는데, 패리티 정보를 저장하는 장치에 **병목 현상**이 발생한다는 것이다. 하드 디스크 1~3에 저장될 때 마다 하드 디스크 4에 패리티 정보를 저장해야 하는데, 하드 디스크 4에 저장에 지연이 생기면 계속해서 느려지는 것이기 때문이다.
 
 ## RAID5

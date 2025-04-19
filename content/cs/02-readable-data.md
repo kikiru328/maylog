@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /readable-data
 created: 2025-04-21T23:45
-updated: 2025-05-07T14:32
+updated: 2025-05-07T16:25
 socialImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3lndmhqbzQxdW1kcXRkd3ZkNWoyb3U0NHVpaTVhNXUzY2xuMWVoYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AUMxbiDIzBOiFGA71r/giphy.gif
 ---
 <p align="center">
@@ -103,7 +103,7 @@ CPU는 0과 1로 이루어진 이진법으로 이해한다. 그런데 표현하�
 
 빌어먹을 아스키 문자 집합의 단점을 벗어나기 위해, EUC-KR 인코딩 방식을 사용해도, 갉밝뷁뾹 등 여러 한글 조합을 표현할 수 가 없다. 그래서 **Unicode** 방식이 등장했다.  
 
-[**유니코드](https://home.unicode.org/)** 는 한글을 포함해 EUC-KR보다 훨씬 많은 언어랑 특수 문자, 이모티콘 까지 코드로 표현할 수 있는 통일된 (Uni) 문자 집합 (Code)다. 이래서 유니코드가 전 세계에서 가장 많이 사용하는 표준 문자 집합이 되었다. python 코드를 작성할 때, 한글이 깨지지 말라고 `UTF-8, UTF-8-SIG`이게 바로 유니코드다. 
+[유니코드](https://home.unicode.org/) 는 한글을 포함해 EUC-KR보다 훨씬 많은 언어랑 특수 문자, 이모티콘 까지 코드로 표현할 수 있는 통일된 (Uni) 문자 집합 (Code)다. 이래서 유니코드가 전 세계에서 가장 많이 사용하는 표준 문자 집합이 되었다. python 코드를 작성할 때, 한글이 깨지지 말라고 `UTF-8, UTF-8-SIG`이게 바로 유니코드다. 
 
 유니코드의 `UTF-8, 16, 32`이 코드들은 인코딩 방식을 의미하는데, 이 인코딩 방식은 **가변 길이 인코딩**방식이다. 인코딩 방식이 달라짐에 따라, 한글을 인코딩하면 각기 다른 코드 값이 나오는 것은 뭐 기정사실이다.
 
