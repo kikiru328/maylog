@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maylog.xyz/sitemap.xml
