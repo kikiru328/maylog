@@ -7,6 +7,8 @@ draft: true
 tags:
   - cs/backend
 permalink: cs/cap
+created: 2025-03-24T10:09
+updated: 2025-04-21T15:20
 ---
 # CAP Theory
 ## 분산시스템이란

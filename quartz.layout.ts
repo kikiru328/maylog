@@ -36,6 +36,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(
       {
         title: "Contents",
+        mapFn: (node) => {
+          const alias = (node.data as any)?.frontmatter?.aliases?.[0]
+          if (!node.isFolder && alias) {
+            node.displayName = alias
+          }
+          return node
+        },
       }
     ),
   ],
