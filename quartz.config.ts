@@ -108,7 +108,6 @@ const config: QuartzConfig = {
         width: 1200,
         height: 630,
         excludeRoot: true,
-        imageStructure: defaultImage, // 커스텀 이미지 컴포넌트 사용 가능
       }),
     ],
   },
