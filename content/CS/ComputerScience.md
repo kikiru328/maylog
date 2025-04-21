@@ -8,8 +8,11 @@ tags:
   - CS
 permalink: 
 created: 2025-04-21T14:22
-updated: 2025-04-21T15:47
+updated: 2025-04-21T15:55
 ---
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczN4bzk0Yjkwejl0MGViNGRtbTkzeTFtc3k5MGN6ZnIwbXpzeHFncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IPbS5R4fSUl5S/giphy.gif" alt="중앙 정렬된 GIF" width="300">
+</p>
 
 # 코드는 작동했지만, 나는 불안했다
 

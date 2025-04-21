@@ -1,3 +1,37 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+:root[data-theme='light'] {
+  --background: #fdf6e3;
+  --foreground: #333333;
+  --secondary: #666666;
+  --accent: #268bd2;
+  --highlight: #eee8d5;
+}
+
+:root[data-theme='dark'] {
+  --background: #0f0f14;
+  --foreground: #e0e0e0;
+  --secondary: #a0a0a0;
+  --accent: #81a1c1;
+  --highlight: #1c1c21;
+}
+
+hr {
+  overflow: visible;
+  padding: 0;
+  height: 0;
+  margin: 2em auto;
+  border: none;
+  text-align: center;
+  width: 100%;
+
+  &:after {
+    content: "* * *";
+    display: inline-block;
+    margin: -1em 0 0.5em;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    color: var(--gray);
+  }
+}
