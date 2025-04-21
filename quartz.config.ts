@@ -25,7 +25,7 @@ const config: QuartzConfig = {
       typography: {
         header:
           {
-            name: "Jua",
+            name: "Gowun Dodum",
             weights: [400],
             includeItalic: true,
           },
