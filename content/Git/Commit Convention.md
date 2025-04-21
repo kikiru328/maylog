@@ -1,8 +1,10 @@
 ---
-title: _index
+title: 
 aliases: 
 description: Description of the page used for link previews.
-draft: false
-tags: 
+draft: true
+tags:
 permalink:
 ---
+
+The rest of your content lives here.
