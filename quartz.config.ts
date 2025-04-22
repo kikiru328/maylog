@@ -24,14 +24,14 @@ const config: QuartzConfig = {
       typography: {
         header:
           {
-            name: "Gowun Dodum",
-            weights: [400],
+            name: "Noto Sans Korean",
+            weights: [400, 700],
             includeItalic: true,
           },
         body:
           {
-            name: "Gowun Dodum",
-            weights: [400],
+            name: "Noto Sans Korean",
+            weights: [400, 700],
             includeItalic: true,
           },
         code:
@@ -43,7 +43,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          light: "#ece2d7",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
