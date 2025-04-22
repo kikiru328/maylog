@@ -8,11 +8,10 @@ tags:
   - CS/computer
 permalink: /memory
 created: 2025-04-22T00:07
-updated: 2025-04-22T00:16
+updated: 2025-04-22T15:46
 ---
-
 <p align="center">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNrbGRjZm91OHdzeG0xbnEzcmFxaTYzaXAyZzR1N3IweHNyb3RxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BkfAhfmX0Ppn2/giphy.gif" alt="중앙 정렬된 GIF" width="300">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNrbGRjZm91OHdzeG0xbnEzcmFxaTYzaXAyZzR1N3IweHNyb3RxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BkfAhfmX0Ppn2/giphy.gif" alt="memory" width="300">
 </p>
 
 ##  메모리와 캐시 메모리
@@ -22,3 +21,10 @@ updated: 2025-04-22T00:16
 다만, 메모리의 경우 **주소**의 위치에 **휘발성**이 강하게 저장하는 특징을 보인다. 저장된 내용은 각각의 **주소**를 가지고 있어, CPU는 해당 주소를 통해 명령어와 데이터를 찾아낸다. 컴퓨터는 수 많은 데이터와 명령어를 활용하여 프로그램을 실행하는데, 이를 RAM에다가 계속해서 저장할 수는 없다. 따라서 전원이 공급되고 있지 않을 때는 삭제하는 **휘발성**의 특징을 지닌다. 컴퓨터가 느려지면 재부팅 하는 것이 이 RAM을 초기화 한다고 보면 된다.
 
 CPU와 메모리 사이에는 **캐시 메모리**가 있다. 캐시 메모리는 CPU가 조금 더 빨리 메모리에 접근 할 수 있도록 하는 저장장치다. CPU 안에 있기도 하고 여러 방향으로 존재한다.
+
+
+
+---
+# 참고자료
+
+※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 기반으로, 다양한 자료를 참고해 작성했습니다.

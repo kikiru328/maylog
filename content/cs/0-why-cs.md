@@ -4,14 +4,13 @@ aliases:
   - learn-cs
 description: CS를 배우는 이유에 대해서 반성과 고찰
 draft: false
-tags:
-  - CS
+tags: []
 permalink: /learn-cs
 created: 2025-04-21T14:22
-updated: 2025-04-22T00:04
+updated: 2025-04-22T15:47
 ---
 <p align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczN4bzk0Yjkwejl0MGViNGRtbTkzeTFtc3k5MGN6ZnIwbXpzeHFncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IPbS5R4fSUl5S/giphy.gif" alt="중앙 정렬된 GIF" width="300">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczN4bzk0Yjkwejl0MGViNGRtbTkzeTFtc3k5MGN6ZnIwbXpzeHFncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IPbS5R4fSUl5S/giphy.gif" alt="why_cs" width="300">
 </p>
 
 # 코드는 작동했지만, 나는 불안했다
@@ -28,7 +27,7 @@ updated: 2025-04-22T00:04
 
 컴퓨터 과학은 특정 기술을 배우는 게 아니다. 문제를 이해하고, 추상화하며, 예측 가능한 방식으로 해결하는 사고 체계다. 내가 배우고 있는 컴퓨터 과학의 구성은 이렇다
 
-1. [[1-computer-structure]]: 기계가 데이터를 어떻게 인식하고 계산하는지 
+1. [[1-computer-structure|컴퓨터 구조]]: 기계가 데이터를 어떻게 인식하고 계산하는지 
 2. 운영체제: 프로그램이 실행되는 실제 무대 위 구조 
 3. 자료구조와 알고리즘: 정보의 표현과 효율적인 처리 방식 
 4. 네트워크: 연결과 전송의 기본 원리 
@@ -42,6 +41,8 @@ updated: 2025-04-22T00:04
 기능을 만드는 데만 몰두했던 나에게 컴퓨터 과학은 ‘왜 이 코드가 작동하는가’를 묻고, 답하게 만드는 도구다. 문제를 정확히 이해하고, 스스로의 판단으로 구조를 설계하며, 예측 가능한 방식으로 개선해나가는 일. 그것이 내가 지향하는 개발자의 모습이고, 그 시작점이 바로 컴퓨터 과학이었다.
 
 
-> [!info] 이 글은 연재 시리즈의 첫 글입니다
-> 이 글은 『이것이 컴퓨터 과학이다』 책을 바탕으로  
-> 컴퓨터 과학을 공부해나가는 연재 시리즈의 첫 글입니다.
+
+---
+# 참고자료
+
+※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 참고해 작성했습니다.
