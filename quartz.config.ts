@@ -114,7 +114,7 @@ const config: QuartzConfig = {
         colorScheme: "lightMode", // 또는 "darkMode"
         width: 1200,
         height: 630,
-        excludeRoot: false,
+        excludeRoot: true,
         component: og, // <- 아래에서 정의할 커스텀 컴포넌트
       }),
     ],
