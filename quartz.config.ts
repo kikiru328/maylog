@@ -1,3 +1,4 @@
+import { CustomOgImages } from "./quartz/plugins/emitters/ogImage"
 import { og } from "./quartz/plugins/emitters/ogImage/og"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
