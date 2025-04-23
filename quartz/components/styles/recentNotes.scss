@@ -10,14 +10,32 @@
     padding-left: 0;
 
     & > li {
-      margin: 1rem 0;
-      .section > .desc > h3 > a {
-        background-color: transparent;
-      }
+      margin: 0.4rem 0;
 
-      .section > .meta {
-        margin: 0 0 0.5rem 0;
-        opacity: 0.6;
+      .section {
+        .desc {
+          margin: 0;
+          padding: 0;
+
+          > h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 0.9rem;
+            line-height: 1.1; // 제목 줄간격도 축소
+
+            > a {
+              background-color: transparent;
+            }
+          }
+        }
+
+        .meta {
+          margin: 0;
+          padding: 0;
+          font-size: 0.7rem; // 더 작게
+          line-height: 1; // 줄간격 최소
+          opacity: 0.6;
+        }
       }
     }
   }

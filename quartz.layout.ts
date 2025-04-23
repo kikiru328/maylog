@@ -42,6 +42,16 @@ export const defaultContentPageLayout: PageLayout = {
         title: "Contents"
       }
     ),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Recent",
+        limit: 3,
+        showTags: false,
+        filter: (f) =>
+          f.slug !== "index" &&
+          !f.slug?.includes("/index"),
+      })
+    ),
   ],
   right: [
     Component.Graph(),
@@ -65,7 +75,16 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Recent",
+        limit: 3,
+        showTags: false,
+        filter: (f) =>
+          f.slug !== "index" &&
+          !f.slug?.includes("/index"),
+      })
+    ),
   ],
   right: [],
 }
