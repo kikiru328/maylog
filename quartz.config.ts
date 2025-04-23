@@ -1,3 +1,4 @@
+import { og } from "./quartz/plugins/emitters/ogImage/og"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 /**
@@ -22,16 +23,22 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
+        title:
+          {
+            name: "Do Hyeon",
+            weights: [400],
+            includeItalic: true,
+          },
         header:
           {
-            name: "Noto Sans Korean",
-            weights: [400, 700],
+            name: "42dot Sans",
+            weights: [400, 500, 600, 700],
             includeItalic: true,
           },
         body:
           {
-            name: "Noto Sans Korean",
-            weights: [400, 700],
+            name: "42dot Sans",
+            weights: [400, 500, 600, 700],
             includeItalic: true,
           },
         code:
@@ -102,7 +109,13 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      // Plugin.CustomOgImages(),
+      Plugin.CustomOgImages({
+        colorScheme: "lightMode", // 또는 "darkMode"
+        width: 1200,
+        height: 630,
+        excludeRoot: false,
+        imageStructure: og, // <- 아래에서 정의할 커스텀 컴포넌트
+      }),
     ],
   },
 }

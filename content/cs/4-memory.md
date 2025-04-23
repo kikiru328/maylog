@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /memory
 created: 2025-04-22T00:07
-updated: 2025-04-22T15:46
+updated: 2025-04-22T16:18
 ---
 <p align="center">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNrbGRjZm91OHdzeG0xbnEzcmFxaTYzaXAyZzR1N3IweHNyb3RxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BkfAhfmX0Ppn2/giphy.gif" alt="memory" width="300">
@@ -24,7 +24,6 @@ CPU와 메모리 사이에는 **캐시 메모리**가 있다. 캐시 메모리�
 
 
 
----
 # 참고자료
 
 ※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 기반으로, 다양한 자료를 참고해 작성했습니다.

@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /cpu
 created: 2025-04-21T23:59
-updated: 2025-04-22T15:46
+updated: 2025-04-22T16:17
 ---
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW5ueTljc2tkM2ZmaTE3aXMzdnU0YmZnOWZidm5jandvNjUxMTl5cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n6szplK2CnuJW/giphy.gif" alt="cpu" width="300">
@@ -78,8 +78,6 @@ CPU는 효율적으로 명령어를 처리하기 위해 하드웨어 인터럽�
 6. 루틴이 끝나면 백업된 작업 재개
 
 
-
----
 # 참고자료
 
 ※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 기반으로, 다양한 자료를 참고해 작성했습니다.

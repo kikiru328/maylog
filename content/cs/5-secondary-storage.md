@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /secondary-storage
 created: 2025-04-22T00:09
-updated: 2025-04-22T15:46
+updated: 2025-04-22T16:18
 ---
 <p align="center">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDBvcWU4MmNwNXowemI5ZDd6dGR2MnF5ZTBodDJmajV5Zmp0cGh0OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/101IgDtwWFQKti/giphy.gif" alt="secondary-storage" width="300">
@@ -23,8 +23,6 @@ updated: 2025-04-22T15:46
 메모리가 현재 실행 중인 프로그램을 저장한다면, 보조 기억 장치는 보관할 프로그램 자체를 저장한다. 즉, 보조 기억 장치에 저장된 프로그램을 메모리에 복사하여 사용하는 것이다. 
 
 
-
----
 # 참고자료
 
 ※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 기반으로, 다양한 자료를 참고해 작성했습니다.

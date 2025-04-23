@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /readable-data
 created: 2025-04-21T23:45
-updated: 2025-04-22T15:45
+updated: 2025-04-22T16:17
 ---
 <p align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3lndmhqbzQxdW1kcXRkd3ZkNWoyb3U0NHVpaTVhNXUzY2xuMWVoYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AUMxbiDIzBOiFGA71r/giphy.gif" alt="readable-data" width="300">
@@ -67,8 +67,6 @@ CPU는 정수를 **2진법**을 사용하여 이해한다. 하지만 표현하�
 기초 개념을 잘 이해하면, 컴퓨터가 ‘왜 이렇게 작동하는지’를 더 정확히 설명할 수 있을 것 같다.
 
 
-
----
 # 참고자료
 
 ※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 기반으로, 다양한 자료를 참고해 작성했습니다.
