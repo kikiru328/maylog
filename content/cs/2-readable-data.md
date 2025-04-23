@@ -8,7 +8,8 @@ tags:
   - CS/computer
 permalink: /readable-data
 created: 2025-04-21T23:45
-updated: 2025-04-22T16:17
+updated: 2025-04-23T11:32
+socialImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3lndmhqbzQxdW1kcXRkd3ZkNWoyb3U0NHVpaTVhNXUzY2xuMWVoYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AUMxbiDIzBOiFGA71r/giphy.gif
 ---
 <p align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3lndmhqbzQxdW1kcXRkd3ZkNWoyb3U0NHVpaTVhNXUzY2xuMWVoYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AUMxbiDIzBOiFGA71r/giphy.gif" alt="readable-data" width="300">

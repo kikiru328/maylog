@@ -7,7 +7,8 @@ draft: false
 tags: 
 permalink: 
 created: 2025-04-22T15:27
-updated: 2025-04-22T15:41
+updated: 2025-04-23T11:43
+socialImage: og-image.png
 ---
 > [!info] 『이것이 컴퓨터 과학이다』 기반 학습 노트
 > 이 모음은 『이것이 컴퓨터 과학이다』 책을 바탕으로  
