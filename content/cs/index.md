@@ -2,12 +2,12 @@
 title: CS
 aliases:
   - cs
-description: Computer Science Folder Page
+description: CS 관련 모음
 draft: false
 tags: 
 permalink: 
 created: 2025-04-22T15:27
-updated: 2025-04-23T11:43
+updated: 2025-04-23T11:57
 socialImage: og-image.png
 ---
 > [!info] 『이것이 컴퓨터 과학이다』 기반 학습 노트

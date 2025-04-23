@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /readable-data
 created: 2025-04-21T23:45
-updated: 2025-04-23T11:32
+updated: 2025-04-23T17:30
 socialImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3lndmhqbzQxdW1kcXRkd3ZkNWoyb3U0NHVpaTVhNXUzY2xuMWVoYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AUMxbiDIzBOiFGA71r/giphy.gif
 ---
 <p align="center">
@@ -58,16 +58,7 @@ CPU는 정수를 **2진법**을 사용하여 이해한다. 하지만 표현하�
 메모리 안에는 프로그램이 저장되어 있고, 프로그램은 명령어로 구성되어 있다. CPU는 이 메모리에서 명령어를 인출-실행을 반복하는데, 이 과정에는 정형화된 흐름이 존재한다. 즉, 일정한 주기를 반복하여 실행되는 것을 **명령어 사이클**이라고 의미한다. (인출 사이클 - 실행 사이클)
 
 하지만 메모리 주소가 명시되는 경우 메모리에 접근해야 하기 때문에, 메모리에 추가적으로 접근하는 **간접 사이클** 단계를 거친다.
-
----
-
-이번 글에서는 컴퓨터가 정보를 어떻게 이해하고 처리하는지,  
-비트, 명령어, 문자와 같은 기본 개념들을 정리해봤다.  
-
-우리가 짠 코드는 결국 이런 일련의 추상화된 흐름을 거쳐 0과 1로 실행된다.  
-기초 개념을 잘 이해하면, 컴퓨터가 ‘왜 이렇게 작동하는지’를 더 정확히 설명할 수 있을 것 같다.
-
-
+</br></br></br>
 # 참고자료
 
 ※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 기반으로, 다양한 자료를 참고해 작성했습니다.

@@ -7,7 +7,7 @@ draft: false
 tags: 
 permalink: /learn-cs
 created: 2025-04-21T14:22
-updated: 2025-04-23T11:12
+updated: 2025-04-23T17:29
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczN4bzk0Yjkwejl0MGViNGRtbTkzeTFtc3k5MGN6ZnIwbXpzeHFncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IPbS5R4fSUl5S/giphy.gif
 ---
 <p align="center">
@@ -40,8 +40,7 @@ socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczN4bzk0Yjkwejl0M
 이 중에서도 나는 **‘공통 기초 체력’** 이라 부를 수 있는 컴퓨터 구조, 운영체제, 자료구조, 네트워크, 데이터베이스부터 다시 학습해야 된다고 생각했다. 이해 없이 구현했던 시절은 늘 불안했다. 지금은 그 불안을 줄이기 위해, 다시 기초로 돌아가고 있다.
 
 기능을 만드는 데만 몰두했던 나에게 컴퓨터 과학은 ‘왜 이 코드가 작동하는가’를 묻고, 답하게 만드는 도구다. 문제를 정확히 이해하고, 스스로의 판단으로 구조를 설계하며, 예측 가능한 방식으로 개선해나가는 일. 그것이 내가 지향하는 개발자의 모습이고, 그 시작점이 바로 컴퓨터 과학이었다.
-
-
+</br></br></br>
 # 참고자료
 
 ※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 참고해 작성했습니다.

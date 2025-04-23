@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /computer-structure
 created: 2025-04-21T17:59
-updated: 2025-04-23T11:32
+updated: 2025-04-23T17:30
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN29haW93dmxyaTU5MTQwNzdzdmhnYnI4Nmg0a2d5Mmd6ZmtpcXRuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CTX0ivSQbI78A/giphy.gif
 ---
 <p align="center">
@@ -32,8 +32,7 @@ CS는 말 그대로 "Computer Science", "컴퓨터"에 관한 지식을 담고 �
 
 각 구성 요소에 대한 자세한 설명은 링크된 노트에서 확인할 수 있다.
 이제 컴퓨터의 핵심 부품 중 가장 중요한 [[3-cpu|CPU]]에 대해 자세히 알아보자.
-
-
+</br></br></br>
 # 참고자료
 
 ※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 기반으로, 다양한 자료를 참고해 작성했습니다.

@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /memory
 created: 2025-04-22T00:07
-updated: 2025-04-23T11:32
+updated: 2025-04-23T17:30
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNrbGRjZm91OHdzeG0xbnEzcmFxaTYzaXAyZzR1N3IweHNyb3RxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BkfAhfmX0Ppn2/giphy.gif
 ---
 <p align="center">
@@ -24,7 +24,7 @@ socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNrbGRjZm91OHdze
 CPU와 메모리 사이에는 **캐시 메모리**가 있다. 캐시 메모리는 CPU가 조금 더 빨리 메모리에 접근 할 수 있도록 하는 저장장치다. CPU 안에 있기도 하고 여러 방향으로 존재한다.
 
 
-
+</br></br></br>
 # 참고자료
 
 ※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 기반으로, 다양한 자료를 참고해 작성했습니다.
