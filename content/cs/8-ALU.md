@@ -1,0 +1,96 @@
+---
+title: 산술연산장치, ALU
+aliases:
+  - alu
+description: CPU의 뇌 속, 산술 논리 연산 장치 ALU
+draft: false
+tags:
+  - CS/computer
+permalink: /alu
+created: 2025-03-22T15:16
+updated: 2025-04-24T23:22
+socialImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJubnVvMXFia2UxcW16dTBiMTd4NjQyYTZucXVldW1oNDFyMHF3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/10pOjRQeiyb0ZO/giphy.gif
+---
+
+<p align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJubnVvMXFia2UxcW16dTBiMTd4NjQyYTZucXVldW1oNDFyMHF3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/10pOjRQeiyb0ZO/giphy.gif" alt="ALU" width="300">
+</p>
+
+# 산술 논리 연산 장치, ALU
+
+**ALU**는 Arithmetic Logic Unit로 산술 논리 연산 장치를 의미한다. CPU 내부에서 연산을 실제로 수행하는, 뇌 속의 뇌, 뇌세포 같은 개념이다. 입력된 명령에 따라 덧셈, 뺄셈 등의 **산술 연산**이나 AND, OR 등의 **논리 연산**을 수행하고 결과를 출력한다.
+
+## ALU의 기능
+
+ALU는 **산술과 논리**연산을 주로 한다고 언급했었다. ALU가 처리하는 주요 연산은 다음과 같다.  
+
+| 처리영역      |                                         |
+| --------- | --------------------------------------- |
+| 산술연산      | Add, Sub, Mul, Div                      |
+| 논리연산      | AND, OR, NOT, XOR 등 Bit 연산 수행           |
+| 시프트연산     | Bit를 왼쪽/오른쪽으로 밀어내는 연산 (Shift)           |
+| 비교연산      | 크기 비교 연산 (ge, le)                       |
+| 상태 플래그 연산 | 연산 결과에 따라 Zero, Carry, Overflow, Sign 등 |
+
+## ALU의 작동 과정
+
+ALU가 위와 같은 연산을 할 때 아래와 같이 작동을 한다.
+
+1. 레지스터에서 A와 B 값을 가져온다.
+2. **제어장치**에서 필요 연산 신호를 ALU에 전달
+3. ALU는 해당 연산을 진행
+4. 결과는 다시 레지스터에 저장하고
+5. 결과가 0인지, 오버플로우가 났는지 결과 상태를 기록한다.
+### 플래그 세우기
+
+ALU의 작동 과정에 따르면 마지막 결과를 Validation을 진행하고, 그에 대한 상태 플래그를 연산한다. 상태 플래그는 [[3-cpu#^flag-register-def|플래그 레지스터]]에 저장이 된다.
+
+| Flags        |                   |
+| ------------ | ----------------- |
+| Z (zero)     | 결과가 0             |
+| C (carry)    | 자리 올림 발생          |
+| O (overflow) | 숫자가 너무 커서 범위를 벗어남 |
+| S (sign)     | 결과가 음수            |
+
+### ALU의 신호?
+
+ALU는 자체적으로 연산의 정의를 할 수 없다. 제어 장치가 직접 연산에 대한 신호를 주어야 하는데, 그 신호에 맞게 어떤 회로를 사용할지 결정하게 된다.
+
+| 제어신호   |     |
+| ------ | --- |
+| `0000` | Add |
+| `0001` | Sub |
+| `0010` | AND |
+| `0011` | OR  |
+
+### ALU 연산 흐름을 요약해보자
+
+`ADD R1, R2, R3` 명령어를 가정하면
+
+1. 제어 장치가 명령어를 해석한다 (Decode)  
+이것이 현재 `ADD`명령어 인 것을 파악하고, 연산 종류에 해당하는 ALU control를 생성한다
+
+2. R2, R3의 값이 레지스터에서 ALU로 입력이 된다.  
+`A <- R2, B <- R3`
+
+3. 제어 신호에 따라 ALU가 적절한 회로를 활성화 한다.
+`0000`이면 `ADD`회로가 선택됨
+
+4. 연산을 수행하고 결과를 생성한다.
+`A + B -> result`
+
+5. result를 R1에 저장한다. (write back)
+6. 플래그 레지스터 업데이트를 진행한다.
+
+# 정리하자면,
+
+- ALU는 제어 신호에 따라 연산이 결정된다.
+- 연산 결과 외에 조건 판단용 플래그가 항상 함께 나온다.
+- 조건문, 반복문, 분기, 예외 처리 전무 ALU + 플래그 기반이다.
+- 명령어와 ALU 연산은 1:1이 아니라 여러 조합으로 제어된다. 
+
+</br></br></br>
+# 참고자료
+
+※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 기반으로, 다양한 자료를 참고해 작성했습니다.  
+『**Computer Organization and Design**』 – David A. Patterson  
