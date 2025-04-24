@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /gpu
 created: 2025-03-22T15:16
-updated: 2025-04-24T14:31
+updated: 2025-04-24T14:34
 socialImage: https://media.giphy.com/media/vfIzAJfET0agoqEjFd/giphy.gif?cid=ecf05e472vkj3vt69rh1t0nk03i98hqef8gf1h5xekxbwt98&ep=v1_gifs_search&rid=giphy.gif&ct=g
 ---
 <p align="center">
@@ -50,7 +50,7 @@ __global__ void cuda_hello(){
 	printf("Hello World from GPU!\n");     
 } 
 
-# GPU로 항려금 디바이스 코드를 실행하도록 하는 코드
+# GPU로 하여금 디바이스 코드를 실행하도록 하는 코드
 int main() {
 	cuda_hello<<<1,1>>>();
 	cudaDeviceSynchronize(); 
