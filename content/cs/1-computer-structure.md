@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /computer-structure
 created: 2025-04-21T17:59
-updated: 2025-04-24T10:02
+updated: 2025-04-24T13:43
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN29haW93dmxyaTU5MTQwNzdzdmhnYnI4Nmg0a2d5Mmd6ZmtpcXRuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CTX0ivSQbI78A/giphy.gif
 ---
 <p align="center">
@@ -30,9 +30,9 @@ CS는 말 그대로 "Computer Science", "컴퓨터"에 관한 지식을 담고 �
 	2. [[4-memory|메모리]]
 	3. [[5-secondary-storage|보조 기억 장치]]
 	4. [[6-io-devices|입출력 장치]]
+	5. [[7-GPU|GPU]]
 
 각 구성 요소에 대한 자세한 설명은 링크된 노트에서 확인할 수 있다.
-이제 컴퓨터의 핵심 부품 중 가장 중요한 [[3-cpu|CPU]]에 대해 자세히 알아보자.
 </br></br></br>
 # 참고자료
 

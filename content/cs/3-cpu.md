@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /cpu
 created: 2025-04-21T23:59
-updated: 2025-04-24T11:29
+updated: 2025-04-24T13:50
 socialImage: https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW5ueTljc2tkM2ZmaTE3aXMzdnU0YmZnOWZidm5jandvNjUxMTl5cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n6szplK2CnuJW/giphy.gif
 ---
 <p align="center">
@@ -115,6 +115,7 @@ CPU는 인터럽트를 실행하기 앞서, 기존에 했던 작업들을 백업
 클럭 속도가 높아지면 CPU는 명령어 사이클을 더욱 빠르게 반복하고 다른 장치들도 빠르게 작동할 수 있다. 즉, 높은 클럭은 CPU의 성능과 직결되는 것이다. 하지만 클럭 속도를 필요 이상으로 높일 시 **발열**문제가 있기 때문에 한계가 명확하다.
 
 ### 멀티코어와 멀티스레드: CPU 노예
+^core-ref
 
 코어 속도는 코어의 수와 스레드 수로 향상 시킬 수 있다. **코어**는 CPU 내에서 명령어를 읽고 해석하고 실행하는 CPU의 중요한 부분을 의미한다. 이 것들은 한 CPU에 여러 개로 구성될 수 있다. (쿼드코어, 옥타코어 등) 코어가 많을 수록 노예가 많다고 생각하면 된다. 우리가 명령한 것들을 이해하는 노예가 많아 일이 더 빠르게 진행하는 것이다.
 

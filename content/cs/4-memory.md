@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /memory
 created: 2025-04-22T00:07
-updated: 2025-04-24T10:06
+updated: 2025-04-24T13:57
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNrbGRjZm91OHdzeG0xbnEzcmFxaTYzaXAyZzR1N3IweHNyb3RxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BkfAhfmX0Ppn2/giphy.gif
 ---
 <p align="center">
@@ -44,6 +44,7 @@ DRAM이 나왔으니 SRAM, Static RAM으로서 정적인 특징을 갖는 RAM이
 </br></br>
 4. **DDR SDRAM**  
 DDR SDRAM, Double Data Rate SDRAM. 대역폭을 넓혀 속도를 빠르게 만든 SDRAM이다. 여기서 말하는 **대역폭**이란, 데이터를 주고 받을 길의 너비를 의미한다.  SDRAM이 클럭 한 번 당 한 번 씩 CPU와 통신한다면, DDR SRAM은 두 번 씩 CPU와 통신한다는 것을 의미한다. 즉, SDRAM보다 전송 속도가 두 배 가량 빠르다.
+^lane
 
 여기서 우리가 많이 들어본 내용이 나온다. **DDR2 SDRAM**은 DDR SDRAM보다 4배 빠르고 ($2^2$배), DDR3 SDRAM은 ($2^3$배), DDR4 SDRAM은 ($2^4$배)이다. 이게 [지금 우리 컴퓨터에 꽂혀있는 RAM](https://www.google.com/search?q=ddr4&sourceid=chrome&ie=UTF-8)이다.
 
@@ -60,6 +61,7 @@ DDR SDRAM, Double Data Rate SDRAM. 대역폭을 넓혀 속도를 빠르게 만�
 빅 엔디안은 MSB를 중요하다고 판단하여 낮은 메모리 주소에 저장한다. 이는 숫자 체계와 동일하기 때문에 메모리 값을 직접 읽거나 디버깅에 유리하다. 이와 반대로 리틀 엔디안은 LSB를 가장 낮은 메모리 주소에 저장하는 방식이기 때문에 직접 읽고 쓰는 것에는 비효율적이지만 수를 계산하는 것에 유리하다.  (둘 중 하나를 선택하는 것은 **바이 엔디안** 이라고 함)
 
 ## 캐시 메모리, CPU와 메모리의 다리
+^cache-def
 
 CPU는 프로그램을 사용하기 위해서 메모리에 빈번하게 접근해야 한다. 하지만 CPU가 메모리에 접근하는 속도는 레지스터에 접근하는 속도보다 느리기에 메모리에 접근하는 속도가 느리면 CPU가 아무리 좋더라도 소용이 없다. 그렇다면 속도를 어떻게 더 빠르게 할 수 있을까?
 
