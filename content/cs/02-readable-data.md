@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /readable-data
 created: 2025-04-21T23:45
-updated: 2025-05-07T16:25
+updated: 2025-05-08T10:22
 socialImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3lndmhqbzQxdW1kcXRkd3ZkNWoyb3U0NHVpaTVhNXUzY2xuMWVoYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AUMxbiDIzBOiFGA71r/giphy.gif
 ---
 <p align="center">
@@ -119,7 +119,7 @@ CPU는 명령으로 동작한다. **대상**을 어떤 **동작**으로 처리�
 
 오퍼랜드가 담긴 영역은 **오퍼랜드 필드**라고 하는데, 여기에는 대상이 명시되지 않고, 데이터가 **저장된 위치**를 저장하는 경우가 많다. 그래서 **주소 필드**라고도 한다. 따라서, 오퍼랜드 필드는 [[04-memory|메모리]] 주소나, [[03-cpu#^register-def|레지스터]] 이름이 명시된다. 물론, 메모리 주소가 명시되면 메모리 접근을 추가로 필요하게 되기도 한다. ^address-def
 
-명령어의 동작, 연산 코드는 다양하게 존재한다. 대표적으로 데이터 전송, 산술/논리 연산, 제어 흐름 변경, 입출력 제어 로 구성되어 있다.  
+명령어의 동작, 연산 코드는 다양하게 존재한다. 대표적으로 데이터 전송, 산술/논리 연산, 제어 흐름 변경, 입출력 제어 로 구성되어 있다.   ^714810
 
 ## 기계어와 어셈블리어
 
