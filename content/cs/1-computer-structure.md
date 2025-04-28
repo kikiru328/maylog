@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /computer-structure
 created: 2025-04-21T17:59
-updated: 2025-04-24T13:43
+updated: 2025-04-28T14:15
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN29haW93dmxyaTU5MTQwNzdzdmhnYnI4Nmg0a2d5Mmd6ZmtpcXRuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CTX0ivSQbI78A/giphy.gif
 ---
 <p align="center">
@@ -32,7 +32,7 @@ CS는 말 그대로 "Computer Science", "컴퓨터"에 관한 지식을 담고 �
 	4. [[6-io-devices|입출력 장치]]
 	5. [[7-GPU|GPU]]
 
-각 구성 요소에 대한 자세한 설명은 링크된 노트에서 확인할 수 있다.
+※ 각 구성 요소에 대한 자세한 설명은 링크된 노트에서 확인할 수 있다.
 </br></br></br>
 # 참고자료
 
