@@ -8,7 +8,7 @@ tags:
   - writing
 permalink: /writing
 created: 2025-03-22T15:16
-updated: 2025-04-30T09:42
+updated: 2025-04-30T09:46
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWw3NnZpeDZ5NGFhbGcxZXZmajNvbXZrcDZoMDFxdHQ2M2Vjc3FxbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l49JRQC9RNa5j35a8/giphy.gif
 ---
 <p align="center">
@@ -18,6 +18,3 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWw3NnZpeDZ5NGFhbG
 # 글을 작성한다의 의미는 무엇인가
 
 </br></br></br>
-# 참고자료
-
-가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바asdasdasds사아자차카타파하
