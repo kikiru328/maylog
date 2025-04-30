@@ -111,6 +111,7 @@ const config: QuartzConfig = {
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
+        sitemapBaseURL: "https://maylog.xyz",
       }),
       Plugin.Assets(),
       Plugin.Static(),

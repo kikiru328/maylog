@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /memory
 created: 2025-04-22T00:07
-updated: 2025-04-27T22:45
+updated: 2025-04-29T07:13
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNrbGRjZm91OHdzeG0xbnEzcmFxaTYzaXAyZzR1N3IweHNyb3RxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BkfAhfmX0Ppn2/giphy.gif
 ---
 <p align="center">
@@ -78,10 +78,10 @@ CPU는 프로그램을 사용하기 위해서 메모리에 빈번하게 접근�
 
 예측해서 저장한 것들이 CPU가 실제로 사용되는 경우에는 예측에 성공했다는 의미로, **캐시 히트** 라고 하며 실패해서 CPU가 메모리에 직접 가져와야 하는 상황이라면 **캐시 미스**라고 한다. AI를 해봐서 알겠지만, 이는 확률에 기반한다. 정확도가 높으면 높을 수록 성능이 좋은 모델처럼, 캐시 메모리도 예측을 잘 한다면, 그 만큼 성능이 좋다고 볼 수 있다. 따라서 캐시 메모리가 예측에 성공할 확률은 **캐시 적중률** 이라고 한다. 이게 낮다면 캐시 메모리의 이점을 활용할 수 없게 되고 CPU의 성능은 계속 하락하는 것이다.
 
-### 이점은 참조 지역성의 원리로
-^improve-cachehitrate
+### 이점은 참조 지역성의 원리로 
 
 그렇다면 [[4.1-improve-cache-hit-rate|캐시 적중률을 어떻게 향상]]시킬 수 있을까. 이는 **참조 지역성의 원리**라는 원칙에 따랐을 때 이점을 최대한 활용할 수 있다. 참조 지역성의 원리는 시간 지역성과 공간 지역성으로 나누어서 볼 수 있다.
+^improve-cachehitrate
 
 | 참조 지역성의 원리 |                                    |
 | ---------- | ---------------------------------- |
