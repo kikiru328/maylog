@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /sync-deadlock
 created: 2025-03-22T15:16
-updated: 2025-05-08T14:49
+updated: 2025-05-08T15:37
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZ1amNneXdqOWo5bm15Z2NrMG9ubmdpMTJvejlhYWw5djQ2bHpwOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l46Cv8ujmQBUv7Kq4/giphy.gif
 ---
 <p align="center">
@@ -115,7 +115,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZ1amNneXdqOWo5bm
 
 4. 원형 대기
 	- 프로세스와 프로세스가 요청한 자원이 원의 형태를 이루는 경우
-	- 각각의 프로세스가 서로 점유한 자원을 할당 받기 위해원의 형태로 대기할 경우 (아까의 예제) 발생한다.
+	- 각각의 프로세스가 서로 점유한 자원을 할당 받기 위해 원의 형태로 대기할 경우 (아까의 예제) 발생한다.
 
 
 ## 해결 방법
