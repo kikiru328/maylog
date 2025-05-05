@@ -8,15 +8,16 @@ tags:
   - CS/computer
 permalink: /cpu
 created: 2025-04-21T23:59
-updated: 2025-04-28T16:25
+updated: 2025-05-01T23:24
 socialImage: https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW5ueTljc2tkM2ZmaTE3aXMzdnU0YmZnOWZidm5jandvNjUxMTl5cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n6szplK2CnuJW/giphy.gif
 ---
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW5ueTljc2tkM2ZmaTE3aXMzdnU0YmZnOWZidm5jandvNjUxMTl5cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n6szplK2CnuJW/giphy.gif" alt="cpu" width="300">
 </p>
 
-# 구성요소
+# CPU 구성요소
 
+컴퓨터는 명령어를 토대로 모든 
 컴퓨터는 **수행할 동작과 그 대상 데이터**를 담은 명령어로 동작한다. 정적인 정보인 **데이터**를 동적 정보인 **명령어**와 함께 전달한다. 두 정보는 0과 1로 이루어져 있으며, 이는 **CPU**가 주체가 되어 실행한다. 즉, CPU의 종류에 따라 실행 가능한 세부적인 명령어의 종류가 다르며 처리의 양상이 달라진다.
 
 **CPU**(Central Processing Unit)는 중앙 처리 부품을 의미한다. CPU는 주요 구성 요소와 빠른 명령어 처리를 위한 기술이 중점적인 부품이다. 크게 CPU 내부는 [[3.1-ALU|산술논리연산장치(ALU)]]와 제어 장치를 포함한 여러 레지스터들이 있다.
@@ -31,7 +32,7 @@ CPU의 구성 요소 중, **레지스터**는 CPU에서 매우 중요한 부품�
 
 ## 레지스터란 무엇인가?
 
-레지스터는 CPU에서 다양한 이름과 역할로서 분리되어 있다. 대표적인 레지스터는 다음과 같다.
+레지스터는 CPU에서 다양한 이름과 역할로서 분리되어 있다. 대표적인 레지스터는 다음과 같다. ^register-def
 
 1. **프로그램 카운터**
 프로그램 카운터는 [[4-memory|메모리]]에서 다음으로 읽어 들일 [[2-readable-data#^address-def|명령어의 주소]]를 저장한다. (**명령어 포인트**라고 부르기도 함). 
