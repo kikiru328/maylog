@@ -8,7 +8,7 @@ tags:
   - writing
 permalink: /writing
 created: 2025-03-22T15:16
-updated: 2025-04-30T13:16
+updated: 2025-05-07T12:23
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWw3NnZpeDZ5NGFhbGcxZXZmajNvbXZrcDZoMDFxdHQ2M2Vjc3FxbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l49JRQC9RNa5j35a8/giphy.gif
 ---
 <p align="center">

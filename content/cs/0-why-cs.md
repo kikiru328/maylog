@@ -7,7 +7,7 @@ draft: false
 tags: 
 permalink: /learn-cs
 created: 2025-04-21T14:22
-updated: 2025-04-24T14:56
+updated: 2025-05-07T14:32
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczN4bzk0Yjkwejl0MGViNGRtbTkzeTFtc3k5MGN6ZnIwbXpzeHFncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IPbS5R4fSUl5S/giphy.gif
 ---
 <p align="center">
@@ -28,7 +28,7 @@ socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczN4bzk0Yjkwejl0M
 
 컴퓨터 과학은 특정 기술을 배우는 게 아니다. 문제를 이해하고, 추상화하며, 예측 가능한 방식으로 해결하는 사고 체계다. 내가 배우고 있는 컴퓨터 과학의 구성은 이렇다
 
-1. [[1-computer-structure|컴퓨터 구조]]: 기계가 데이터를 어떻게 인식하고 계산하는지 
+1. [[01-computer-structure|컴퓨터 구조]]: 기계가 데이터를 어떻게 인식하고 계산하는지 
 2. 운영체제: 프로그램이 실행되는 실제 무대 위 구조 
 3. 자료구조와 알고리즘: 정보의 표현과 효율적인 처리 방식 
 4. 네트워크: 연결과 전송의 기본 원리 
