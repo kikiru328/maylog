@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /process-thread
 created: 2025-03-22T15:16
-updated: 2025-05-08T11:38
+updated: 2025-05-08T16:49
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc21xdGRnbzVxM2VwN3R4bHBjYTBtcmtvMGNlNWZtejRkNDNsdmxzaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/quuIo0rCMQK6KHMrJD/giphy.gif
 ---
 <p align="center">

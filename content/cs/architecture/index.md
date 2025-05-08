@@ -1,14 +1,14 @@
 ---
-title: 컴퓨터 구조
+title: Computer Architecture
 aliases:
-  - computer-structure
-description: 컴퓨터 과학은 컴퓨터를 아는 것 부터.
+  - computer-architecture-contents
+description: Computer Architecture Contents
 draft: false
 tags:
   - CS/computer
-permalink: /computer-structure
-created: 2025-04-21T17:59
-updated: 2025-05-07T14:32
+permalink: /computer-architecture-contents
+created: 2025-03-22T15:16
+updated: 2025-05-08T17:36
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN29haW93dmxyaTU5MTQwNzdzdmhnYnI4Nmg0a2d5Mmd6ZmtpcXRuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CTX0ivSQbI78A/giphy.gif
 ---
 <p align="center">
@@ -17,9 +17,8 @@ socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN29haW93dmxyaTU5M
 
 # 컴퓨터 구조
 
-CS는 말 그대로 "Computer Science", "컴퓨터"에 관한 지식을 담고 있다. 즉, 컴퓨터가 어떻게 구성되고 어떠한 구조로 이루어져 있는 지 아는 것이 중요하다.
-
-컴퓨터의 구조는 다음과 같다.
+이 섹션에서는 컴퓨터가 정보를 어떻게 이해하고 처리하는지, 그리고 이를 가능하게 하는 주요 구성 요소들에 대해 다룹니다.  
+전체 내용은 아래 두 가지 주제로 나뉘며, 각 주제에 대한 자세한 내용은 링크된 개별 노트에서 확인하실 수 있습니다.
 
 1. [[02-readable-data|컴퓨터가 이해하는 정보]]
 	1. 데이터
@@ -32,8 +31,4 @@ CS는 말 그대로 "Computer Science", "컴퓨터"에 관한 지식을 담고 �
 	4. [[06-io-devices|입출력 장치]]
 	5. [[07-GPU|GPU]]
 
-※ 각 구성 요소에 대한 자세한 설명은 링크된 노트에서 확인할 수 있다.
-</br></br></br>
-# 참고자료
-
-※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 기반으로, 다양한 자료를 참고해 작성했습니다.
+📌 각 항목은 별도의 문서로 구성되어 있으며, 필요한 내용을 빠르게 찾아볼 수 있도록 구성되어 있습니다.

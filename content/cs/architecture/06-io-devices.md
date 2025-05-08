@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /io-devices
 created: 2025-04-22T00:11
-updated: 2025-05-07T22:14
+updated: 2025-05-08T16:49
 socialImage: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGgzbWdlcjQ4bThnajR1amRpemdnMmkyY3lveTV5c29qZ2F2ajlsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6nV0O3Df8yh9oGpq/giphy.gif
 ---
 <p align="center">

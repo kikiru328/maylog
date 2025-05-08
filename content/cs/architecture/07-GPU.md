@@ -8,13 +8,12 @@ tags:
   - CS/computer
 permalink: /gpu
 created: 2025-03-22T15:16
-updated: 2025-05-07T22:13
+updated: 2025-05-08T16:54
 socialImage: https://media.giphy.com/media/vfIzAJfET0agoqEjFd/giphy.gif?cid=ecf05e472vkj3vt69rh1t0nk03i98hqef8gf1h5xekxbwt98&ep=v1_gifs_search&rid=giphy.gif&ct=g
 ---
 <p align="center">
   <img src="https://media.giphy.com/media/vfIzAJfET0agoqEjFd/giphy.gif?cid=ecf05e472vkj3vt69rh1t0nk03i98hqef8gf1h5xekxbwt98&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="GPU" width="300">
 </p>
-
 
 # GPU
 
