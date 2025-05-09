@@ -8,7 +8,7 @@ tags:
   - Backend/messaging
 permalink: /kafka
 created: 2025-03-22T15:16
-updated: 2025-05-09T14:56
+updated: 2025-05-09T15:00
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTR1eXRrYnB6ZDRyM3N1bjlnN3ZhYjI5N3Zwand1dzZnYnZ0cWZ6dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SCBMYV8nXzaO7tMfj3/giphy.gif
 ---
 <p align="center">
@@ -57,14 +57,14 @@ A 시스템은 Kafka에 이벤트를 발행 (Publish)하고, B 시스템은 Kafk
 일반적으로 우리가 쇼핑몰 사이트에서 주문을 하는 것에 대해 생각해보자.  
 Client는 사이트에서 주문을 요청한다. 요청된 주문서가 어떻게 되는지 보자.
 
-| 구성요소      | 역할             | 예시                                                                                    |
-| --------- | -------------- | ------------------------------------------------------------------------------------- |
-| Producer  | 메시지를 Kafka에 발행 | 주문 서버(`order-api`)가 주문 발생(`order.created`) 이벤트를 Kafka에 보냄                             |
-| Broker    | 메시지를 저장 및 분배   | Kafka 서버가 `order-topic`을 관리하며 메시지 저장                                                  |
-| Topic     | 메시지 분류 단위      | `order-topic`에 주문 관련 이벤트를 저장                                                          |
-| Partition | 메시지 분산 저장 단위   | 주문 ID를 기준으로 여러 Partition에 분산 저장                                                       |
-| Offset    | 파티션 내 메시지 순서   | 각 Partition에서 메시지는 Offset 0, 1, 2.. 순서로 저장                                            |
-| Consumer  | 메시지를 읽는 주체     | `payment-service`, `inventory-service`,`notification-service`가 `order-topic`을 구독하여 처리 |
+| 구성요소      | 역할                | 예시                                                                                    |
+| --------- | ----------------- | ------------------------------------------------------------------------------------- |
+| Producer  | 메시지를 Kafka에<br>발행 | 주문 서버(`order-api`)가 주문 발생(`order.created`) 이벤트를 Kafka에 보냄                             |
+| Broker    | 메시지를 저장 <br>및 분배  | Kafka 서버가 `order-topic`을 관리하며 메시지 저장                                                  |
+| Topic     | 메시지 분류 단위         | `order-topic`에 주문 관련 이벤트를 저장                                                          |
+| Partition | 메시지 분산 <br>저장 단위  | 주문 ID를 기준으로 여러 Partition에 분산 저장                                                       |
+| Offset    | 파티션 내 <br>메시지 순서  | 각 Partition에서 메시지는 Offset 0, 1, 2.. 순서로 저장                                            |
+| Consumer  | 메시지를 <br>읽는 주체    | `payment-service`, `inventory-service`,`notification-service`가 `order-topic`을 구독하여 처리 |
 
 ```
 [Client] → 주문 요청
