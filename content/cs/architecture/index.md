@@ -4,11 +4,10 @@ aliases:
   - computer-architecture-contents
 description: Computer Architecture Contents
 draft: false
-tags:
-  - CS/computer
+tags: []
 permalink: /computer-architecture-contents
 created: 2025-03-22T15:16
-updated: 2025-05-08T17:36
+updated: 2025-05-09T14:48
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN29haW93dmxyaTU5MTQwNzdzdmhnYnI4Nmg0a2d5Mmd6ZmtpcXRuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CTX0ivSQbI78A/giphy.gif
 ---
 <p align="center">
