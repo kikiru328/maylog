@@ -4,11 +4,12 @@ aliases:
   - messaging-contents
 description: backend messaging contents
 draft: false
-tags: []
+tags: 
 permalink: /messaging-contents
 created: 2025-03-22T15:16
-updated: 2025-05-09T14:46
+updated: 2025-05-09T16:33
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanQ0MzI3djcxamoydzQwdm5waHI1MXc0cWN6bHJkYjVtb3pnbWh6NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/n7PjZc4B0DJHMfISNk/giphy.gif
+comments: "false"
 ---
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanQ0MzI3djcxamoydzQwdm5waHI1MXc0cWN6bHJkYjVtb3pnbWh6NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/n7PjZc4B0DJHMfISNk/giphy.gif" alt="note title" width="300">

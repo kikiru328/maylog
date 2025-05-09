@@ -7,8 +7,9 @@ draft: false
 tags: 
 permalink: /backend-architecture-contents
 created: 2025-03-22T15:16
-updated: 2025-05-09T14:46
+updated: 2025-05-09T16:33
 socialImage: https://media.giphy.com/media/UzVAgtxx7DBra/giphy.gif?cid=ecf05e47sywokqemj7ni8xhqh1o1cttp3khetbc3tg977lvm&ep=v1_gifs_search&rid=giphy.gif&ct=g
+comments: "false"
 ---
 <p align="center">
   <img src="https://media.giphy.com/media/UzVAgtxx7DBra/giphy.gif?cid=ecf05e47sywokqemj7ni8xhqh1o1cttp3khetbc3tg977lvm&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="note title" width="300">

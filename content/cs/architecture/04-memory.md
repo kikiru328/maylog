@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /memory
 created: 2025-04-22T00:07
-updated: 2025-05-08T16:49
+updated: 2025-05-09T17:17
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNrbGRjZm91OHdzeG0xbnEzcmFxaTYzaXAyZzR1N3IweHNyb3RxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BkfAhfmX0Ppn2/giphy.gif
 ---
 <p align="center">
@@ -27,7 +27,7 @@ socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNrbGRjZm91OHdze
 
 CPU는 프로그램 전체를 CPU 레지스터에 저장할 수가 없다. 물론 메모리에도 저장할 수가 없다. 단순한 이유다. 프로그램의 용량이 위 두 개 보다 크기 때문이다. 그래서 CPU는 [[05-secondary-storage|보조기억장치]]에 저장을 하고, 메모리에 복사 후 사용하게 된다. 이렇기 때문에 RAM의 용량이 크면, 복사하는 양도 높고 빠르기 때문에 컴퓨터 성능이 향상될 수 있다. 이토록 중요한 RAM은 왜 RAM이라 불리는 걸까
 
-RAM은 Random Access Memory, [[04.3-memory-access|임의 접근]] 메모리의 약자이다. **임의 접근**은 순차적으로 접근하지 않고 임의의 위치에 곧장 접근하는 방식을 의미한다. 우리가 맛집을 찾아갈 때 처럼, 주변의 식당을 하나 씩 들리는 것이 아니라 바로 그 집으로 간다. 마찬가지로 그래서 **직접 접근**이라고 불리기도 한다. 주소가 있다면 바로 접근할 수 있기 때문에 어떤 주소에 접근하든 데이터에 접근하는 시간이 동일하다는 특징을 갖는다.
+RAM은 Random Access Memory, [[04.3-memory-access|임의 접근]] 메모리의 약자이다. **임의 접근**은 순차적으로 접근하지 않고 임의의 위치에 곧장 접근하는 방식을 의미한다. 우리가 맛집을 찾아갈 때 처럼, 주변의 식당을 하나 씩 들리는 것이 아니라 바로 그 집으로 간다. 마찬가지로 그래서 **직접 접근**이라고 불리기도 한다. 주소가 있다면 바로 접근할 수 있기 때문에 어떤 주소에 접근하든 데이터에 접근하는 시간이 동일하다는 특징을 갖는다. ^fc21bd
 
 > [!info] 순차접근?
 > 데이터에 접근하기 위해선 순차적으로 접근한다는 것인데, 데이터의 주소에 따라 접근하는 시간이 달라질 수 있다. 우리가 지하철을 타는 것과 비슷하다. 2호선을 타고 사당에서 잠실로 갈때, 각 정류장을 들리면서 가는 것과 비슷하다. 컴퓨터로 보면, Array 자료구조와 마찬가지로 각 순차적으로 접근하는 것이 이와 동일한 예제이다.

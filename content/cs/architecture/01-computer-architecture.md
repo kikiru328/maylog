@@ -8,7 +8,7 @@ tags:
   - CS/computer
 permalink: /computer-architecture
 created: 2025-04-21T17:59
-updated: 2025-05-08T17:36
+updated: 2025-05-09T17:12
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN29haW93dmxyaTU5MTQwNzdzdmhnYnI4Nmg0a2d5Mmd6ZmtpcXRuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CTX0ivSQbI78A/giphy.gif
 ---
 <p align="center">
