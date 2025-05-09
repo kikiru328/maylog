@@ -4,11 +4,10 @@ aliases:
   - operating-system-contents
 description: Operating System Contents
 draft: false
-tags:
-  - CS/computer
+tags: []
 permalink: /operating-system-contents
 created: 2025-03-22T15:16
-updated: 2025-05-08T17:36
+updated: 2025-05-09T15:38
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmpqaTI3ZXo5aGZheW5zNXV4aTV1dGsxb2U1NXIxN3dteWhmMHRtZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WsJzXF8M8tl6w/giphy.gif
 ---
 <p align="center">
