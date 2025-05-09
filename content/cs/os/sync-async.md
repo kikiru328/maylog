@@ -8,7 +8,7 @@ tags:
   - CS/os
 permalink: /sync-async
 created: 2025-03-22T15:16
-updated: 2025-05-09T09:02
+updated: 2025-05-09T14:55
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDg3cnhvamN4dHU2dGViN3BtcDFoNGR5bWFtZzYwcXNheDUxNGpmZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hyQ8ESUyePo2s/giphy.gif
 ---
 <p align="center">
@@ -31,7 +31,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDg3cnhvamN4dHU2dG
 
 ### 비동기 (Asynchronous)
 
-비동기 방식은, 작업 요청만 하고 결과는 나중에 받는 형식이다. 작업 요청자는 응답과 무관하게 다음 작업을 바로 시작한다는 것이다.
+비동기 방식은, 작업 요청만 하고 결과는 나중에 받는 형식이다. 작업 요청자는 응답과 무관하게 다음 작업을 바로 시작한다는 것이다. ^86d362
 
 비유하자면 요리와도 유사하다. 우리가 라면을 끓일 때, 물을 끓이고 끓고 나서 스프, 면을 넣지만, 물이 다 끓어야 라면에서 스프를 꺼내고 면을 꺼내고 넣고 기다리고 하지 않는다 (대부분..?). 물을 끓일 동안 우리는 면과 스프, 파 등등을 준비해 놓는다.
 

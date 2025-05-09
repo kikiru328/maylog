@@ -8,7 +8,7 @@ tags:
   - Backend/architecture
 permalink: /msa
 created: 2025-03-22T15:16
-updated: 2025-05-09T14:40
+updated: 2025-05-09T14:53
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTdqZGw4MTdybXFzMzVkaWhwejBsdWg2ZnRiOHYwbXgydnVsYXFobyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fh5JorVBCuNNtJY5ln/giphy.gif
 ---
 <p align="center">
@@ -99,4 +99,3 @@ MSA는 기술적 트렌드가 아니라, **조직, 시스템, 도메인**을 바
 - [wooaoe 블로그 - 마이크로서비스란 무엇인가](https://wooaoe.tistory.com/57)
 - [Mozzi Devlog - MSA란 무엇인가](https://mozzi-devlog.tistory.com/34)
 - [Martin Fowler - Microservices](https://martinfowler.com/articles/microservices.html)
-- [ThoughtWorks - Monoliths to Microservices](https://www.thoughtworks.com/insights/blog/monoliths-microservices-evolutionary-path)

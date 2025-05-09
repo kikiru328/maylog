@@ -8,7 +8,7 @@ tags:
   - Backend/messaging
 permalink: /kafka
 created: 2025-03-22T15:16
-updated: 2025-05-09T14:48
+updated: 2025-05-09T14:56
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTR1eXRrYnB6ZDRyM3N1bjlnN3ZhYjI5N3Zwand1dzZnYnZ0cWZ6dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SCBMYV8nXzaO7tMfj3/giphy.gif
 ---
 <p align="center">
@@ -17,17 +17,17 @@ socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTR1eXRrYnB6ZDRyM
 
 # 카프카
 
-Kafka는 단순한 메시지 큐가 아니다. Kafka는 오늘날 대규모 데이터 환경에서 **시스템 간 통신 방식 자체를 근본적으로 바꾼 아키텍처**다. Kafka의 핵심부터 실제 마이크로서비스 아키텍처 (MSA) 에서의 활용 방식, 그리고 동기 REST API 방식과의 비교를 통해 Kafka가 왜 필요한지, 어떤 tradeoff가 있는지 알아보자
+Kafka는 단순한 메시지 큐가 아니다. Kafka는 오늘날 대규모 데이터 환경에서 **시스템 간 통신 방식 자체를 근본적으로 바꾼 아키텍처**다. Kafka의 핵심부터 실제 [[MSA|마이크로서비스 아키텍처 (MSA)]] 에서의 활용 방식, 그리고 동기 REST API 방식과의 비교를 통해 Kafka가 왜 필요한지, 어떤 tradeoff가 있는지 알아보자
 
 ## 정의
 
-Kafka는 원래 LinkedIn에서 개발하였습니다. 2010년 경, 수많은 사용자 행동 로그, 클릭 이벤트 등을 효율적으로 수집하고 처리할 수단이 필요했는데, 당시 메시징 시스템들은 확장성과 처리량, 장애 복원성 면에서 한계가 존재했다.
+Kafka는 원래 [LinkedIn](https://www.linkedin.com/home?originalSubdomain=kr)에서 개발하였습니다. 2010년 경, 수많은 사용자 행동 로그, 클릭 이벤트 등을 효율적으로 수집하고 처리할 수단이 필요했는데, 당시 메시징 시스템들은 확장성과 처리량, 장애 복원성 면에서 한계가 존재했다.
 
 LinkendIn은 이를 해결하기 위해서 **분산 로그 기반 메시징 시스템**인 **Kafka**를 설계하였고, 2011년에 Apache Software Foundation을 통해 오픈소스화하였다. 이후 Kafka는 **실시간 스트리밍**, **이벤트 기반 시스템**, **데이터 파이프라인 구축**의 "표준 기술"이 되었다.
 
 Kafka라는 이름은 소설가 **프란츠 카프카(Franz Kafka)** 에서 따온 것으로 알려져 있다. 소설가처럼 데이터를 기록하고, 흘려 보낸다는 로그 기반 철학과 동일하다.
 
-Kafka는 **분산 메시징 시스템**이다. 여러 시스템 간 데이터를 주고 받을 때, **비동기적으로 메시지를 전달**해주는 **중간자** 역할을 한다. Kafka는 다음과 같은 구조로 동작한다.
+Kafka는 **분산 메시징 시스템**이다. 여러 시스템 간 데이터를 주고 받을 때, [[sync-async#^86d362|비동기적]]으로 **메시지를 전달**해주는 **중간자** 역할을 한다. Kafka는 다음과 같은 구조로 동작한다.
 
 ```mermaid
 graph TD
@@ -157,7 +157,7 @@ REST API와 다르게 Kafka는 분할로 서비스가 진행된다. 각 데이�
 
 따라서 Kafka는 프로젝트의 상황과 연산 주제에 따라 다르다.
 
-| 상황                  |                     |
+| 상황                  | Kafka               |
 | ------------------- | ------------------- |
 | 하나의 이벤트, 여러 서비스로 분기 | O                   |
 | 각 서비스가 독립적인 처리      | O                   |
@@ -179,4 +179,3 @@ Kafka는 결과를 직접 돌려주지 않지만, 그 대신 **대규모 트래�
 - [Red Hat: Kafka란 무엇인가](https://www.redhat.com/ko/topics/integration/what-is-apache-kafka)
 - [우아한형제들 기술블로그: Kafka의 구조와 활용](https://techblog.woowahan.com/17386/)
 - [Confluent Kafka Tutorials](https://developer.confluent.io/learn-kafka/)
-- [Kafka vs RabbitMQ 비교 by IBM](https://developer.ibm.com/articles/compare-apache-kafka-vs-rabbitmq/)
