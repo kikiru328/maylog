@@ -1,5 +1,5 @@
 ---
-title: 카프카. 시스템 간 통신의 재 정의
+title: Kafka. 시스템 간 통신의 재 정의
 aliases:
   - kafka
 description: 시스템 간 통신의 정의, 대규모 트래픽에 알맞은 Apache Kafka에 대해서.
@@ -8,7 +8,7 @@ tags:
   - Backend/messaging
 permalink: /kafka
 created: 2025-03-22T15:16
-updated: 2025-05-09T15:00
+updated: 2025-05-09T17:56
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTR1eXRrYnB6ZDRyM3N1bjlnN3ZhYjI5N3Zwand1dzZnYnZ0cWZ6dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SCBMYV8nXzaO7tMfj3/giphy.gif
 ---
 <p align="center">
