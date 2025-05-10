@@ -1,5 +1,5 @@
 ---
-title: Kernel
+title: 커널
 aliases:
   - kernel
 description: 운영체제의 핵심 부분인 커널이란
@@ -8,7 +8,7 @@ tags:
   - cs/os
 permalink: /kernel
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:14
+updated: 2025-06-04T09:49
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTQwdmgyaHU0ZzV3YXZnczF2c3Z4dDB2NmFmYmxyN3JsZmk5bjM4cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gWoTJPQ0JEv6Z9EJ0z/giphy.gif
 ---
 <p align="center">
@@ -17,9 +17,9 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTQwdmgyaHU0ZzV3YX
 
 # 커널이란
 
-커널이란, **운영체제의 핵심 부분**을 의미한다. 우리가 운영체제라고 부르는 것의 가장 중심에 있는 프로그램이 바로 커널이다. 커널은 하드웨어와 소프트에어 사이를 연결하는 다리 역할을 한다. 즉, 사용자가 프로그램을 실행하거나 명령을 내리면, 커널이 이를 받아 실제 하드웨어가 동작할 수 있도록 관리하고 조정한다.
+커널이란, [[cs/os/operate-system|운영체제]]**의 핵심 부분**을 의미한다. 우리가 운영체제라고 부르는 것의 가장 중심에 있는 프로그램이 바로 커널이다. 커널은 하드웨어와 소프트에어 사이를 연결하는 다리 역할을 한다. 즉, 사용자가 프로그램을 실행하거나 명령을 내리면, 커널이 이를 받아 실제 하드웨어가 동작할 수 있도록 관리하고 조정한다.
 
-쉽게 말해, 커널은 컴퓨터의 심장과 같은 존재다. 컴퓨터가 부팅될 때 가장 먼저 실행되며, 시스템이 꺼질 때 까지 계속해서 CPU, 메모리, 저장장치 등의 자원을 효율적으로 조율한다.
+쉽게 말해, 커널은 컴퓨터의 심장과 같은 존재다. 컴퓨터가 부팅될 때 가장 먼저 실행되며, 시스템이 꺼질 때 까지 계속해서 [[cs/architecture/cpu|CPU]], [[cs/architecture/memory|메모리]], [[cs/architecture/secondary-storage|저장장치]] 등의 자원을 효율적으로 조율한다.
 
 ### 커널의 주요 기능
 커널이 담당하는 일은 다음과 같다.  
