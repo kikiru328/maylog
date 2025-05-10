@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /cpu-upgrade
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:17
+updated: 2025-06-04T09:35
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWtxZnd0MmpsbG1leHAzODU2M2hsc21pYjBhY3VzMzIzbDFxbzlxZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5tvJS6ZZslR9nBYxUA/giphy.gif
 ---
 <p align="center">
@@ -17,7 +17,7 @@ socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWtxZnd0MmpsbG1le
 
 # CPU의 성능을 향상 시키자
 
-현재는 CPU와 [[gpu|gpu]]를 통합하여 좋은 컴퓨터 환경을 만들고 있다. 하지만 GPU 없이 컴퓨터는 잘 돌아가지만 CPU가 없으면 부팅조차 되지 않는다. 따라서 CPU의 중요도가 압도적으로 높다. 그렇기에 좋은 CPU를 사용하지만, 더욱 더 잘 활용하기 위해서는 클럭, 코어, 스레드 등 여러 CPU 성능 향상 기법을 알고 있는 것이 좋다.
+현재는 [[cs/architecture/cpu|CPU]]와 [[cs/architecture/gpu|gpu]] 를 통합하여 좋은 컴퓨터 환경을 만들고 있다. 하지만 GPU 없이 컴퓨터는 잘 돌아가지만 CPU가 없으면 부팅조차 되지 않는다. 따라서 CPU의 중요도가 압도적으로 높다. 그렇기에 좋은 CPU를 사용하지만, 더욱 더 잘 활용하기 위해서는 클럭, 코어, 스레드 등 여러 CPU 성능 향상 기법을 알고 있는 것이 좋다.
 
 ## 클럭
 
@@ -62,9 +62,9 @@ CPU 살 때, `클럭`이라는 말을 들어 봤을 것이다. 클럭이란, 컴
 
 데이터 위험은 **의존성**에 의해 발생된다. 가령 첫 파이프라인이 완료되고 데이터가 저장되어야만 실행할 수 있다면, 데이터 위험이 발생하고, 파이프라인이 제대로 실행되지 않는다. 
 
-제어 위험은 [[register#^2017eb|프로그램 카운터]]의 갑작스러운 변화로 발생한다. Jump나 인터럽트 등으로 프로그램 실행 흐름에 변화가 생기면 미리 인출, 해석 중인 명령어는 그 의미가 사라진다.
+제어 위험은 [[cs/architecture/register#^2017eb|프로그램 카운터]]의 갑작스러운 변화로 발생한다. Jump나 인터럽트 등으로 프로그램 실행 흐름에 변화가 생기면 미리 인출, 해석 중인 명령어는 그 의미가 사라진다.
 
-구조 위험은 명령어들을 겹쳐 실행하는 과정에서 서로 다른 명령어가 동시에 [[alu|alu]], [[register|레지스터]]와 같은 CPU 부품을 사용하려고 할 때 발생한다
+구조 위험은 명령어들을 겹쳐 실행하는 과정에서 서로 다른 명령어가 동시에 [[cs/architecture/alu|alu]], [[cs/architecture/register|레지스터]]와 같은 CPU 부품을 사용하려고 할 때 발생한다
 
 </br></br></br>
 # 참고자료

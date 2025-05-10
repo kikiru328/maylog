@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /memory-access
 created: 2025-03-22T15:16
-updated: 2025-05-28T20:31
+updated: 2025-06-04T09:39
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenNjamljeXFzOTB3M3Zna290ZGh4aHhveG1vM2YzZTk1eXlxeTU4ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lxuvVZ6jzJib22nBjG/giphy.gif
 ---
 <p align="center">
@@ -18,7 +18,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenNjamljeXFzOTB3M3
 
 # 순차 & 임의 접근
 
-컴퓨터 시스템에서 데이터를 [[memory|메모리]]에서 읽거나 쓸 때, 접근 방식은 크게 임의 접근과 순차 접근으로 나눌 수 있다. 이 두 방식은 성능, 효율성, 그리고 사용하는 상황에 따라 각각 장단점이 존재한다.
+컴퓨터 시스템에서 데이터를 [[cs/architecture/memory|메모리]]에서 읽거나 쓸 때, 접근 방식은 크게 임의 접근과 순차 접근으로 나눌 수 있다. 이 두 방식은 성능, 효율성, 그리고 사용하는 상황에 따라 각각 장단점이 존재한다.
 
 ## 임의 접근
 임의 접근은 메모리나 저장 장치 내의 임의의 위치에 직접 접근할 수 있는 방식이다.
@@ -28,7 +28,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenNjamljeXFzOTB3M3
 	- 순서를 따를 필요 없이 필요한 데이터만 빠르게 조회가 가능하다.
 - 대표 예시
 	- RAM (Random Access Memory)
-	- [[array#^68ebcd|배열]]의 인덱스 접근
+	- [[cs/structure/array#^68ebcd|배열]]의 인덱스 접근
 	- 데이터베이스 인덱스 조회
 - 장점
 	- 필요한 데이터만 빠르게 조회가 가능하다
@@ -48,7 +48,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenNjamljeXFzOTB3M3
 	- 파일을 순서대로 읽기
 	- 배열을 0부터 1,2,3... 순서대로 조회
 - 장점
-	- 공간 지역성이 좋아 [[cpu|cpu]] [[improve-cache-hit-rate|캐시 효율]]이 높다.
+	- 공간 지역성이 좋아 [[cs/architecture/cpu|cpu]] [[cs/architecture/improve-cache-hit-rate|캐시 효율]]이 높다.
 	- 대량 데이터 처리 시 빠르고 효율적이다.
 - 단점
 	- 특정 데이터를 바로 찾는 데 시간이 오래 걸릴 수 있다.

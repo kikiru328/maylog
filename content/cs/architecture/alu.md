@@ -1,5 +1,5 @@
 ---
-title: 산술연산장치, ALU
+title: 산술연산장치
 aliases:
   - alu
 description: CPU의 뇌 속, 산술 논리 연산 장치 ALU
@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /alu
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:16
+updated: 2025-06-04T09:06
 socialImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJubnVvMXFia2UxcW16dTBiMTd4NjQyYTZucXVldW1oNDFyMHF3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/10pOjRQeiyb0ZO/giphy.gif
 ---
 

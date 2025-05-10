@@ -1,5 +1,5 @@
 ---
-title: 제어 장치, Control Unit
+title: 제어 장치
 aliases:
   - control-unit
 description: CPU의 뇌, ALU에게 전달하기 위한 신경 장치, Control Unit.
@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /control-unit
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:17
+updated: 2025-06-04T09:44
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc213ajBxM2UycGxjZzhnZ2prbXh5cTBxYzU2d2JtazZ5c2JmMGc0OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ofSBiM95Lzb5tg1Fu/giphy.gif
 ---
 <p align="center">
@@ -18,7 +18,7 @@ socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc213ajBxM2UycGxjZ
 
 # 제어 장치, CU
 
-**제어 장치, CU (Control Unit)** 은 CPU 내에서 **명령어를 해석하고, 각 부품들 (레지스터, ALU, 메모리) 등이** 어떻게 동작할 지 **지시**를 내리는 장치이다. 쉽게 말하면 CPU의 감독관이라고 보면 된다. 명령어를 해석해서 레지스터에 저장하거나 추출, ALU에 명령어를 지시하는 역할을 한다.
+**제어 장치, CU (Control Unit)** 은 [[cs/architecture/cpu|CPU]] 내에서 **명령어를 해석하고, 각 부품들 (레지스터, ALU, 메모리) 등이** 어떻게 동작할 지 **지시**를 내리는 장치이다. 쉽게 말하면 CPU의 감독관이라고 보면 된다. 명령어를 해석해서 레지스터에 저장하거나 추출, ALU에 명령어를 지시하는 역할을 한다.
 
 ### 주요 역할
 

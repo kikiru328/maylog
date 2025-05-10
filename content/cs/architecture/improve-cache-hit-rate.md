@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /improve-cache-hit-rate
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:17
+updated: 2025-06-04T09:45
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHZic2lmNHNyaXYxeWRscmFmdnJpYjRsMW53dWdkd2k2d2tpdWxqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/50uf3N0m35dB5bDnMZ/giphy.gif
 ---
 <p align="center">
@@ -17,8 +17,8 @@ socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHZic2lmNHNyaXYxe
 
 # 캐시히트율 올리는 방법
 
-[[memory|메모리]]에는 [[memory#^cache-def|캐시 메모리]]가 있었고, [[cpu|cpu]]가 처리 할 것을 예상해서 저장하는 것이 캐시 메모리의 역할이라고 언급했었다. 그리고 저장한 내용이 예상 값과 일치한 것이 **캐시 히트 (Cache Hit)** 이고 일치하지 않는다면 **캐시 미스 (Cache Miss)** 라고 했다. 또한 예상 일치한 통계가 **캐시 히트율 (Cache Hit rate)** 라고 했는데, 이 것들을 향상시키기 위해선 
-[[memory#^improve-cachehitrate|지역성의 원칙]]을 활용하면 향상 시킬 수 있다고 했었다. 그렇다면 이러한 방법밖에 없는가?
+[[cs/architecture/memory|메모리]]에는 [[cs/architecture/memory#^cache-def|캐시 메모리]]가 있었고, [[cs/architecture/cpu|cpu]]가 처리 할 것을 예상해서 저장하는 것이 캐시 메모리의 역할이라고 언급했었다. 그리고 저장한 내용이 예상 값과 일치한 것이 **캐시 히트 (Cache Hit)** 이고 일치하지 않는다면 **캐시 미스 (Cache Miss)** 라고 했다. 또한 예상 일치한 통계가 **캐시 히트율 (Cache Hit rate)** 라고 했는데, 이 것들을 향상시키기 위해선 
+[[cs/architecture/memory#^improve-cachehitrate|지역성의 원칙]]을 활용하면 향상 시킬 수 있다고 했었다. 그렇다면 이러한 방법밖에 없는가?
 
 ## 캐시 히트율을 향상시키는 여러 방법
 
