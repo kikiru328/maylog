@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kikiru328.github.io/sitemap.xml
+Sitemap: https://maylog.xyz/sitemap.xml
