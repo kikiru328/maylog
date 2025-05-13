@@ -30,6 +30,8 @@ jobs:
         run: npx quartz build
       - name: Copy robots.txt
         run: cp quartz/static/robots.txt public/robots.txt
+      - name: Copy CNAME
+        run: cp quartz/static/CNAME public/CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
