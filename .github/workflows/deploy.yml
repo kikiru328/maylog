@@ -34,8 +34,6 @@ jobs:
         run: cp quartz/static/CNAME public/CNAME
       - name: Disable Jekyll
         run: touch public/.nojekyll
-      - name: Copy sitemap alias
-        run: cp public/sitemap.xml public/sitemap_index.xml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
