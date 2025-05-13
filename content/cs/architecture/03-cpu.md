@@ -5,10 +5,10 @@ aliases:
 description: 컴퓨터의 뇌, CPU
 draft: false
 tags:
-  - CS/computer
+  - cs/computer
 permalink: /cpu
 created: 2025-04-21T23:59
-updated: 2025-05-08T16:49
+updated: 2025-05-13T17:39
 socialImage: https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW5ueTljc2tkM2ZmaTE3aXMzdnU0YmZnOWZidm5jandvNjUxMTl5cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n6szplK2CnuJW/giphy.gif
 ---
 <p align="center">

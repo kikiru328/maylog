@@ -5,10 +5,10 @@ aliases:
 description: 대규모 서비스는 작은 소규모 단위로 구성한다. MSA에 대해서 알아보자.
 draft: false
 tags:
-  - Backend/architecture
+  - backend/architecture
 permalink: /msa
 created: 2025-03-22T15:16
-updated: 2025-05-09T14:59
+updated: 2025-05-13T17:38
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTdqZGw4MTdybXFzMzVkaWhwejBsdWg2ZnRiOHYwbXgydnVsYXFobyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fh5JorVBCuNNtJY5ln/giphy.gif
 ---
 <p align="center">

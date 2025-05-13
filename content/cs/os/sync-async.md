@@ -5,10 +5,10 @@ aliases:
 description: 동기와 비동기, 어떤 것에 차이가 있을까
 draft: false
 tags:
-  - CS/os
+  - cs/os
 permalink: /sync-async
 created: 2025-03-22T15:16
-updated: 2025-05-09T14:55
+updated: 2025-05-13T17:41
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDg3cnhvamN4dHU2dGViN3BtcDFoNGR5bWFtZzYwcXNheDUxNGpmZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hyQ8ESUyePo2s/giphy.gif
 ---
 <p align="center">

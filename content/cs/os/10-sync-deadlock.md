@@ -5,10 +5,10 @@ aliases:
 description: 우리는 언제나 동기화를 진행한다.
 draft: false
 tags:
-  - CS/os
+  - cs/os
 permalink: /sync-deadlock
 created: 2025-03-22T15:16
-updated: 2025-05-09T08:37
+updated: 2025-05-13T17:41
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZ1amNneXdqOWo5bm15Z2NrMG9ubmdpMTJvejlhYWw5djQ2bHpwOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l46Cv8ujmQBUv7Kq4/giphy.gif
 ---
 <p align="center">
