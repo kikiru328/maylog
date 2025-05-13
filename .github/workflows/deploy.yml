@@ -32,6 +32,8 @@ jobs:
         run: cp quartz/static/robots.txt public/robots.txt
       - name: Copy CNAME
         run: cp quartz/static/CNAME public/CNAME
+      - name: Copy Sitemap
+        run: cp public/sitemap.xml sitemap.xml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
