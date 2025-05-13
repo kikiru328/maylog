@@ -7,7 +7,7 @@ draft: false
 tags: 
 permalink: /backend-contents
 created: 2025-03-22T15:16
-updated: 2025-05-09T15:44
+updated: 2025-05-13T21:12
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTQwdmgyaHU0ZzV3YXZnczF2c3Z4dDB2NmFmYmxyN3JsZmk5bjM4cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gWoTJPQ0JEv6Z9EJ0z/giphy.gif
 ---
 <p align="center">
@@ -23,7 +23,7 @@ FastAPI, Kafka, Docker, CI/CD 등 실제 업무에서 활용되는 기술들을 
 
 | 분류                                           | 설명                                                    |
 | -------------------------------------------- | ----------------------------------------------------- |
-| [[backend/architecture/index\|Architecture]] | [[MSA\|마이크로서비스 설계]], 수평 확장 전략 등 시스템 구조 전반             |
+| [[backend/architecture/index\|Architecture]] | [[msa\|마이크로서비스 설계]], 수평 확장 전략 등 시스템 구조 전반             |
 | **Performance**                              | CPU Bound, I/O Bound 작업 처리 전략 등 성능 최적화                |
 | [[backend/messaging/index\|Messaging]]       | [[kafka\|Kafka]], Redis Pub/Sub 등 서비스 간 통신 및 이벤트 처리   |
 | **Testing**                                  | Pytest 기반 단위 테스트, Locust를 활용한 부하 테스트                  |

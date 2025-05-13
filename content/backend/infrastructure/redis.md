@@ -8,7 +8,7 @@ tags:
   - backend/infrastructure
 permalink: /redis
 created: 2025-03-22T15:16
-updated: 2025-05-09T17:54
+updated: 2025-05-13T21:12
 socialImage: https://media1.tenor.com/m/3DOAqgdRMasAAAAC/minion-memory-alert.gif
 ---
 <p align="center">

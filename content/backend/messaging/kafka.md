@@ -1,5 +1,5 @@
 ---
-title: Kafka. 시스템 간 통신의 재 정의
+title: Kafka
 aliases:
   - kafka
 description: 시스템 간 통신의 정의, 대규모 트래픽에 알맞은 Apache Kafka에 대해서.
@@ -8,7 +8,7 @@ tags:
   - backend/messaging
 permalink: /kafka
 created: 2025-03-22T15:16
-updated: 2025-05-13T17:39
+updated: 2025-05-13T21:12
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTR1eXRrYnB6ZDRyM3N1bjlnN3ZhYjI5N3Zwand1dzZnYnZ0cWZ6dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SCBMYV8nXzaO7tMfj3/giphy.gif
 ---
 <p align="center">
@@ -17,11 +17,11 @@ socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTR1eXRrYnB6ZDRyM
 
 # 카프카
 
-Kafka는 단순한 메시지 큐가 아니다. Kafka는 오늘날 대규모 데이터 환경에서 **시스템 간 통신 방식 자체를 근본적으로 바꾼 아키텍처**다. Kafka의 핵심부터 실제 [[MSA|마이크로서비스 아키텍처 (MSA)]] 에서의 활용 방식, 그리고 동기 REST API 방식과의 비교를 통해 Kafka가 왜 필요한지, 어떤 tradeoff가 있는지 알아보자
+Kafka는 단순한 메시지 큐가 아니다. Kafka는 오늘날 대규모 데이터 환경에서 **시스템 간 통신 방식 자체를 근본적으로 바꾼 아키텍처**다. Kafka의 핵심부터 실제 [[msa|마이크로서비스 아키텍처 (MSA)]] 에서의 활용 방식, 그리고 동기 REST API 방식과의 비교를 통해 Kafka가 왜 필요한지, 어떤 tradeoff가 있는지 알아보자
 
 ## 정의
 
-Kafka는 원래 [LinkedIn](https://www.linkedin.com/home?originalSubdomain=kr)에서 개발하였습니다. 2010년 경, 수많은 사용자 행동 로그, 클릭 이벤트 등을 효율적으로 수집하고 처리할 수단이 필요했는데, 당시 메시징 시스템들은 확장성과 처리량, 장애 복원성 면에서 한계가 존재했다.
+Kafka는 원래 [LinkedIn](https://www.linkedin.com/home?originalSubdomain=kr)에서 개발하였다. 2010년 경, 수많은 사용자 행동 로그, 클릭 이벤트 등을 효율적으로 수집하고 처리할 수단이 필요했는데, 당시 메시징 시스템들은 확장성과 처리량, 장애 복원성 면에서 한계가 존재했다.
 
 LinkendIn은 이를 해결하기 위해서 **분산 로그 기반 메시징 시스템**인 **Kafka**를 설계하였고, 2011년에 Apache Software Foundation을 통해 오픈소스화하였다. 이후 Kafka는 **실시간 스트리밍**, **이벤트 기반 시스템**, **데이터 파이프라인 구축**의 "표준 기술"이 되었다.
 
