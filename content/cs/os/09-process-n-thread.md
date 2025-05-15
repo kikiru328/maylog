@@ -8,7 +8,7 @@ tags:
   - cs/os
 permalink: /process-thread
 created: 2025-03-22T15:16
-updated: 2025-05-13T17:40
+updated: 2025-05-15T11:07
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc21xdGRnbzVxM2VwN3R4bHBjYTBtcmtvMGNlNWZtejRkNDNsdmxzaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/quuIo0rCMQK6KHMrJD/giphy.gif
 ---
 <p align="center">
@@ -31,7 +31,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc21xdGRnbzVxM2VwN3
 프로세스 유형에 따라 메모리에 구성되는 정보는 크게 다르지 않다. 대신 커널 영역과 사용자 영역에는 저장되는 차이가 있다.
 
 - [[08.2-system-call#^f445e5|커널 영역]] 에는 [[#^ffe1fa|PCB, 프로세스 제어 블록]] 이라는 정보가 저장된다.
-- [[08.2-system-call#^f445e5|사용자 영역]]에는 실행 중인 프로세스가 코드, 데이터, 힙, 스택 영역으로 나누어 저장된다.
+- [[08.2-system-call#^f445e5|사용자 영역]]에는 실행 중인 프로세스가 코드, 데이터, 힙, 스택 영역으로 나누어 저장된다. ^fc63aa
 
 ## 사용자 영역
 
