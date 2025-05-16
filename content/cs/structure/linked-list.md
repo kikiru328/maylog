@@ -8,7 +8,7 @@ tags:
   - cs/structure
 permalink: /linked-list
 created: 2025-03-22T15:16
-updated: 2025-05-28T21:23
+updated: 2025-06-04T10:03
 socialImage: https://media.giphy.com/media/XA7hAO76RCB7BO46v3/giphy.gif?cid=ecf05e47xoedg1gwd2kgavvuyja0cv1f7z2t46bcuax9bhh2&ep=v1_gifs_search&rid=giphy.gif&ct=g
 ---
 <p align="center">
@@ -31,7 +31,7 @@ socialImage: https://media.giphy.com/media/XA7hAO76RCB7BO46v3/giphy.gif?cid=ecf0
 
 ## 접근
 
-연결 리스트는 [[array|배열]]과는 다르다. 배열은 요소에 접근할 때 $O(1)$이 필요하고, 일정하였다. 그렇다면 연결 리스트는 몇 번째 노드에 데이터가 있는지 안다면 $O(1)$에 접근이 과연 가능할까?
+연결 리스트는 [[cs/structure/array|배열]]과는 다르다. 배열은 요소에 접근할 때 $O(1)$이 필요하고, 일정하였다. 그렇다면 연결 리스트는 몇 번째 노드에 데이터가 있는지 안다면 $O(1)$에 접근이 과연 가능할까?
 
 정답은 그렇지 않다. 연결 리스트는 특정 요소에 접근할 때 계속 꼬리를 물면서 접근해야 한다. 즉, 몇 번째 노드에 데이터가 있다고 한 들, 앞에서부터 순차적으로 접근할 수 밖에 없기에 $O(n)$이 소요될 수 밖에 없다.
 

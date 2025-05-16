@@ -8,7 +8,7 @@ tags:
   - cs/structure
 permalink: /array
 created: 2025-03-22T15:16
-updated: 2025-05-28T21:23
+updated: 2025-06-04T10:03
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemJwczQ4ZTV3NzNrbGVreXVjZGtzdzRoN3JoNXgxNTQ1YzlkZmNyaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2QEkuf4oMtqSuKR2/giphy.gif
 ---
 <p align="center">
@@ -17,13 +17,13 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemJwczQ4ZTV3NzNrbG
 
 # 배열
 
-**배열**이란 무엇일까? 배열은 다른 말로 "나열"과 같다. [[memory|메모리]] 공간을 차지하는 여러 요소들을 순차적으로 나열된 자료구조를 말한다. ^68ebcd
+**배열**이란 무엇일까? 배열은 다른 말로 "나열"과 같다. [[cs/architecture/memory|메모리]] 공간을 차지하는 여러 요소들을 순차적으로 나열된 자료구조를 말한다. ^68ebcd
 
 배열의 특징 중 하나는, 시작은 무조건 $0$ 부터 시작한다는 점이다. 이를 **인덱스 (Index)** 라고 한다. 인덱스 덕분에 배열의 요소를 식별할 수 있다.
 
 ## 요소 접근 및 수정
 
-배열의 인덱스를 통해 요소에 접근하는 [[time-space-complexity#^13c6e6|시간 복잡도]]는 어떻게 될까? 이미 나열된 배열의 각각의 요소는 인덱스 덕분에 각각을 식별할 수 있기 때문에 $O(1)$ 의 시간 복잡도로 일정하다. 마찬가지로 요소를 수정할 때도 $O(1)$ 이다.
+배열의 인덱스를 통해 요소에 접근하는 [[cs/structure/time-space-complexity#^13c6e6|시간 복잡도]]는 어떻게 될까? 이미 나열된 배열의 각각의 요소는 인덱스 덕분에 각각을 식별할 수 있기 때문에 $O(1)$ 의 시간 복잡도로 일정하다. 마찬가지로 요소를 수정할 때도 $O(1)$ 이다.
 
 - 배열 내 요소에 접근: $O(1)$
 - 배열 내 요소를 수정: $O(1)$
