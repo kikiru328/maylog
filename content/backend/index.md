@@ -7,7 +7,7 @@ draft: false
 tags: 
 permalink: /contents
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:39
+updated: 2025-06-04T08:40
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTQwdmgyaHU0ZzV3YXZnczF2c3Z4dDB2NmFmYmxyN3JsZmk5bjM4cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gWoTJPQ0JEv6Z9EJ0z/giphy.gif
 comments: "false"
 ---
@@ -24,9 +24,9 @@ FastAPI, Kafka, Docker, CI/CD 등 실제 업무에서 활용되는 기술들을 
 
 | 분류                                           | 설명                                                    |
 | -------------------------------------------- | ----------------------------------------------------- |
-| [[backend/architecture/index\|Architecture]] | [[msa\|마이크로서비스 설계]], 수평 확장 전략 등 시스템 구조 전반             |
+| [[content/backend/architecture/index\|Architecture]] | [[msa\|마이크로서비스 설계]], 수평 확장 전략 등 시스템 구조 전반             |
 | **Performance**                              | CPU Bound, I/O Bound 작업 처리 전략 등 성능 최적화                |
-| [[backend/messaging/index\|Messaging]]       | [[kafka\|Kafka]], Redis Pub/Sub 등 서비스 간 통신 및 이벤트 처리   |
+| [[content/backend/messaging/index\|Messaging]]       | [[kafka\|Kafka]], Redis Pub/Sub 등 서비스 간 통신 및 이벤트 처리   |
 | **Testing**                                  | Pytest 기반 단위 테스트, Locust를 활용한 부하 테스트                  |
 | **Monitoring**                               | Prometheus, Grafana를 활용한 시스템 모니터링 및 로그 분석             |
 | **Deployment**                               | Docker, Kubernetes, GitHub Actions를 통한 배포 자동화 및 운영 전략 |
