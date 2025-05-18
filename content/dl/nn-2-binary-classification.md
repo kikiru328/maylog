@@ -8,7 +8,7 @@ tags:
   - deeplearning/network
 permalink: /binary-classification-nn
 created: 2025-03-22T15:16
-updated: 2025-05-29T10:38
+updated: 2025-06-04T10:05
 socialImage: https://media1.tenor.com/m/GVk4jB2u_i8AAAAd/coding.gif
 ---
 <p align="center">
