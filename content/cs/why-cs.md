@@ -7,7 +7,7 @@ draft: false
 tags: 
 permalink: /why-cs
 created: 2025-04-21T14:22
-updated: 2025-05-28T07:15
+updated: 2025-06-04T10:05
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczN4bzk0Yjkwejl0MGViNGRtbTkzeTFtc3k5MGN6ZnIwbXpzeHFncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IPbS5R4fSUl5S/giphy.gif
 ---
 <p align="center">
@@ -30,7 +30,7 @@ socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczN4bzk0Yjkwejl0M
 
 1. [[cs/architecture/index|컴퓨터 구조]]: 기계가 데이터를 어떻게 인식하고 계산하는지 
 2. [[cs/os/index|운영체제]]: 프로그램이 실행되는 실제 무대 위 구조 
-3. 자료구조와 알고리즘: 정보의 표현과 효율적인 처리 방식 
+3. [[cs/structure/index|자료구조와 알고리즘]]: 정보의 표현과 효율적인 처리 방식 
 4. 네트워크: 연결과 전송의 기본 원리 
 5. 데이터베이스: 영속성과 일관성을 위한 구조 
 6. 언어: 코드가 기계로 해석되기까지의 과정 
