@@ -8,7 +8,7 @@ tags:
   - obsidian/publish
 permalink: /why-obsidian
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:15
+updated: 2025-06-04T10:08
 socialImage: https://wikidocs.net/images/page/270322/1-2._%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%84%91%E1%85%B3_%E1%84%87%E1%85%B2_2.gif
 ---
 <p align="center">
@@ -17,7 +17,7 @@ socialImage: https://wikidocs.net/images/page/270322/1-2._%E1%84%80%E1%85%B3%E1%
 
 # 옵시디언을 배포한 계기
 
-나는 일전에 **Github Page**를 시작으로 블로그를 시작했다. 처음에는 잘 쓰다가 점차 귀찮아지고, 무지성으로 잔디만 채우려고 하는 모습에 회의감을 느끼게 되었다. `spss`로 꾸미기에도 한계가 있었기에 custom 테마가 많은 tistory로 옮겼지만, 도망친 곳에는 낙원이 없다고, tistory도 마찬가지였다.
+나는 일전에 **Github Page**를 시작으로 블로그를 시작했다. 처음에는 잘 쓰다가 점차 귀찮아지고, 무지성으로 잔디만 채우려고 하는 모습에 회의감을 느끼게 되었다. `spss`로 꾸미기에도 한계가 있었기에 custom 테마가 많은 tistory로 옮겼지만, 도망친 곳에는 낙원이 없다고, tistory도 마찬가지였다. ^6e9602
 
 **markdown**을 활용하여 글을 작성했던 내 손은 tistory의 markdown editor에 맞지 않았다. 글을 쓰고, 쓴 글을 markdown으로 바꾸고, 다시 결과를 확인하고. 일련의 과정을 반복하다보니 글 하나를 쓰기가 여간 귀찮은게 아니였다. 
 

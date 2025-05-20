@@ -8,7 +8,7 @@ tags:
   - obsidian/publish
 permalink: /differ-ssg
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:15
+updated: 2025-06-04T10:08
 socialImage: https://media1.tenor.com/m/77CBlK2TW_8AAAAC/i-need-that-shit-need-that-thing.gif
 ---
 <p align="center">
@@ -26,7 +26,7 @@ Obsidian 페이지를 배포하기 위해서는 SSG가 꼭 필요하다. SSG에�
 ## Jekyll
 
 - Ruby 기반으로 설계된 블로그 중심의 SSG로, Markdown과 Liquid 템플릿을 사용하여 콘텐츠 작성
--  [[1_TurningPoint|GitHub Pages]]와의 쉬운 통합이 장점이며, 넷틀리파이(Netlify)와 같은 배포 플랫폼에서도 잘 작동
+-  [[1-why-obsidian#^6e9602|GitHub Pages]]와의 쉬운 통합이 장점이며, 넷틀리파이(Netlify)와 같은 배포 플랫폼에서도 잘 작동
 
 ## **[Quartz](https://quartz.jzhao.xyz/)**
 
