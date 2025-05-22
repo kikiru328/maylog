@@ -8,7 +8,7 @@ tags:
   - literatures/thoughts
 permalink: /it-5min
 created: 2025-03-22T15:16
-updated: 2025-05-29T16:03
+updated: 2025-06-04T08:42
 socialImage: https://media.tenor.com/Qg1iDHP_xWQAAAAi/simple-grady-smith.gif
 ---
 <p align="center">
@@ -120,7 +120,7 @@ Legacy Code 부분을 읽으면서는 깊은 생각에 잠겼습니다. 과거�
 ### Hash Table
 > 찾기 어려운 것을 찾기 쉽게 하는 알고리즘.  해시 테이블 내 key가 중복 시 충돌이 일어나고, 해당 인덱스를 [[array#^68ebcd|배열]]로 넣는다.  
 
-### [[content/writings/literatures/clean-code|Clean Code]]
+### [[clean-code|Clean Code]]
 > 깨끗한 코드를 의미한다. 공유의 목적이 크다.
 > Python은 PEP 8 처럼 규칙이 있기도 하다.  
 
