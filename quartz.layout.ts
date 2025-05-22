@@ -53,7 +53,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer(
       {
-        title: "Technical",
+        title: "Contents",
       }
     ),
     Component.DesktopOnly(
@@ -68,7 +68,13 @@ export const defaultContentPageLayout: PageLayout = {
     ),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph(
+      {
+        localGraph: {
+          fontSize: 1
+        }
+      }
+    ),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
