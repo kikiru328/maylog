@@ -8,14 +8,14 @@ tags:
   - cs/os
 permalink: /process-thread
 created: 2025-03-22T15:16
-updated: 2025-06-04T15:41
+updated: 2025-06-04T16:11
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc21xdGRnbzVxM2VwN3R4bHBjYTBtcmtvMGNlNWZtejRkNDNsdmxzaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/quuIo0rCMQK6KHMrJD/giphy.gif
 ---
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc21xdGRnbzVxM2VwN3R4bHBjYTBtcmtvMGNlNWZtejRkNDNsdmxzaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/quuIo0rCMQK6KHMrJD/giphy.gif" alt="note title" width="300">
 </p>
 
-# 프로세스와 스레드드
+# 프로세스와 스레드
 
 프로세스(Process)는 실행 중인 프로그램을 의미한다. [[cs/architecture/memory|메모리]]에는 컴퓨터가 실행되는 순간부터, 여러 프로그램들이 프로세스들로 적재되어 실행된다. 즉, 정적인 프로그램 코드에 실행 상태가 더해져 [[cs/os/operate-system|운영체제]]에 의해 관리되는 일종의 **단위**인 것이다. ^41799a
 

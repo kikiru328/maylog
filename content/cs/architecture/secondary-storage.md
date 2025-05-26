@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /secondary-storage
 created: 2025-04-22T00:09
-updated: 2025-06-04T09:41
+updated: 2025-06-04T16:30
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDBvcWU4MmNwNXowemI5ZDd6dGR2MnF5ZTBodDJmajV5Zmp0cGh0OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/101IgDtwWFQKti/giphy.gif
 ---
 <p align="center">
@@ -19,7 +19,7 @@ socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDBvcWU4MmNwNXowe
 
 우리는 기본적으로 [[cs/architecture/memory|메모리]], RAM을 사용한다. 하지만 RAM은 휘발성이 강해 매 부팅마다 초기화되기 때문에 매번 컴퓨터를 사용할 때 마다 동일한 데이터와 명령어를 저장하기에는 너무 번거롭다. 그래서 사라지지 않는, **비휘발성**의 메모리인 보조 기억 장치를 사용한다. 전원이 꺼져도 기록할 수 있는 저장장치이기 때문이다. 
 
-보조 기억 장치는 하드 디스크, SSD 등이 이에 해당한다. 메모리는 **실행 중인 프로그램**을 저장한다면, **보관할 프로그램** 자체를 저장하는 것이 보조 기억 장치다. 즉, 보조 기억 장치에 저장되어 있는 프로그램을 RAM에 복사하여 CPU가 사용하는 것이다.
+보조 기억 장치는 하드 디스크, SSD 등이 이에 해당한다. 메모리는 **실행 중인 프로그램**을 저장한다면, **보관할 프로그램** 자체를 저장하는 것이 보조 기억 장치다. 즉, 보조 기억 장치에 저장되어 있는 프로그램을 RAM에 복사하여 CPU가 사용하는 것이다. ^bcc087
 
 ```mermaid
 graph LR

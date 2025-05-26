@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /cpu-upgrade
 created: 2025-03-22T15:16
-updated: 2025-06-04T09:35
+updated: 2025-06-04T16:14
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWtxZnd0MmpsbG1leHAzODU2M2hsc21pYjBhY3VzMzIzbDFxbzlxZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5tvJS6ZZslR9nBYxUA/giphy.gif
 ---
 <p align="center">
@@ -28,6 +28,8 @@ CPU 살 때, `클럭`이라는 말을 들어 봤을 것이다. 클럭이란, 컴
 그렇다면 클럭을 올릴 수 있는 최대한으로 올리면 컴퓨터의 성능이 향상되는가? 되긴 하지만 문제가 있다. **오버 클럭**이라는 말을 들어봤을 것이다. 기본 CPU의 정상 클럭 속도 이상으로 올리는 방법인데, 오버 클럭시 CPU의 성능이 향상되기는 한다. 하지만 언제나 장점만 있을 순 없는 법. 클럭 속도가 높아짐에 따라 **발열**문제가 있기 때문에 CPU의 버전에 따라 클럭과 쿨러를 잘 구성해야 한다.
 
 ## 멀티 코어 & 스레드: CPU 노예
+
+^84156b
 
 코어와 스레드 또한 CPU에서 많이 들어본 내용이다. CPU의 성능에 가장 가까운 의미를 내포하는데, 그렇다면 코어와 스레드는 무엇일까? ^b0fbd6
 
