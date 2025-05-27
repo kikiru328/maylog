@@ -4,10 +4,10 @@ aliases:
   - infrastructure-contents
 description: 백엔드 시스템의 실행 환경과 운영 기반을 구성하는 도구들을 다룹니다.
 draft: false
-tags: []
-permalink: /infrastructure-contents
+tags: 
+permalink: /contents
 created: 2025-03-22T15:16
-updated: 2025-05-09T17:54
+updated: 2025-05-28T07:18
 socialImage: https://media1.tenor.com/m/29h0he_U1PgAAAAC/hammer-tools.gif
 comments: "false"
 ---

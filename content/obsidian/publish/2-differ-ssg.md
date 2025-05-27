@@ -6,9 +6,9 @@ description: 블로그를 만들기 위해선 SSG가 필요한데 그게 뭘까
 draft: false
 tags:
   - obsidian/publish
-permalink: /obsidian/publish/differ-ssg
+permalink: /differ-ssg
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:18
+updated: 2025-05-28T07:15
 socialImage: https://media1.tenor.com/m/77CBlK2TW_8AAAAC/i-need-that-shit-need-that-thing.gif
 ---
 <p align="center">

@@ -6,9 +6,9 @@ description: 캐시히트율을 올리는 방법은 무엇이 있을까
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/improve-cache-hit-rate
+permalink: /improve-cache-hit-rate
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:14
+updated: 2025-05-28T07:17
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHZic2lmNHNyaXYxeWRscmFmdnJpYjRsMW53dWdkd2k2d2tpdWxqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/50uf3N0m35dB5bDnMZ/giphy.gif
 ---
 <p align="center">

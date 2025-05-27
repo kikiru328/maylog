@@ -5,9 +5,9 @@ aliases:
 description: 노션의 대척점. 옵시디언의 활용방안
 draft: false
 tags: 
-permalink: /obsidian/contents
+permalink: /contents
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:18
+updated: 2025-05-28T07:15
 socialImage: https://media1.tenor.com/m/YFCU777uig0AAAAC/kowalski-noted.gif
 ---
 <p align="center">

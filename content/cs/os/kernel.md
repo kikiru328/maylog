@@ -6,9 +6,9 @@ description: 운영체제의 핵심 부분인 커널이란
 draft: false
 tags:
   - cs/os
-permalink: /cs/os/kernel
+permalink: /kernel
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:15
+updated: 2025-05-28T07:14
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTQwdmgyaHU0ZzV3YXZnczF2c3Z4dDB2NmFmYmxyN3JsZmk5bjM4cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gWoTJPQ0JEv6Z9EJ0z/giphy.gif
 ---
 <p align="center">

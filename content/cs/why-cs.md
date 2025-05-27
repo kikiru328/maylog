@@ -5,9 +5,9 @@ aliases:
 description: CS를 배우는 이유에 대해서 반성과 고찰
 draft: false
 tags: 
-permalink: /cs/why-cs
+permalink: /why-cs
 created: 2025-04-21T14:22
-updated: 2025-05-27T18:17
+updated: 2025-05-28T07:15
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczN4bzk0Yjkwejl0MGViNGRtbTkzeTFtc3k5MGN6ZnIwbXpzeHFncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IPbS5R4fSUl5S/giphy.gif
 ---
 <p align="center">

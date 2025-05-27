@@ -6,9 +6,9 @@ description: 글을 쓴다는 것은 무엇이고 글을 잘 작성하는 것은
 draft: false
 tags:
   - writing
-permalink: /writing/how-to-write
+permalink: /how-to-write
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:19
+updated: 2025-05-28T07:15
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWw3NnZpeDZ5NGFhbGcxZXZmajNvbXZrcDZoMDFxdHQ2M2Vjc3FxbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l49JRQC9RNa5j35a8/giphy.gif
 ---
 <p align="center">

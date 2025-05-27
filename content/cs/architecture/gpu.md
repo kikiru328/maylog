@@ -6,9 +6,9 @@ description: 그래픽 처리 장치, GPU에 대해서
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/gpu
+permalink: /gpu
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:14
+updated: 2025-05-28T07:17
 socialImage: https://media.giphy.com/media/vfIzAJfET0agoqEjFd/giphy.gif?cid=ecf05e472vkj3vt69rh1t0nk03i98hqef8gf1h5xekxbwt98&ep=v1_gifs_search&rid=giphy.gif&ct=g
 ---
 <p align="center">

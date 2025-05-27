@@ -6,9 +6,9 @@ description: 메모리를 활용할 때, 순차 접근과 임의 접근으로 �
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/memory-access
+permalink: /memory-access
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:14
+updated: 2025-05-28T07:17
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenNjamljeXFzOTB3M3Zna290ZGh4aHhveG1vM2YzZTk1eXlxeTU4ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lxuvVZ6jzJib22nBjG/giphy.gif
 ---
 <p align="center">

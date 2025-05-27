@@ -5,9 +5,9 @@ aliases:
 description: Computer Architecture Contents
 draft: false
 tags: 
-permalink: /cs/architecture/contents
+permalink: /contents
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:13
+updated: 2025-05-28T07:17
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN29haW93dmxyaTU5MTQwNzdzdmhnYnI4Nmg0a2d5Mmd6ZmtpcXRuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CTX0ivSQbI78A/giphy.gif
 comments: "false"
 ---

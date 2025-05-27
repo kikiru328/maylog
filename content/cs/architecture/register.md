@@ -6,9 +6,9 @@ description: CPU의 구성 요소 중 가장 중요한 Register
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/register
+permalink: /register
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:13
+updated: 2025-05-28T07:17
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdpOHFkbXZzN2ExZnM5ejdrYjdnNHU5Nm1wZXp1cXhpa3FlZDdpMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/970Sr8vpwEbXG/giphy.gif
 ---
 <p align="center">

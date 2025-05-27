@@ -5,9 +5,9 @@ aliases:
 description: Operating System Contents
 draft: false
 tags: 
-permalink: /cs/os/contents
+permalink: /contents
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:16
+updated: 2025-05-28T07:14
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmpqaTI3ZXo5aGZheW5zNXV4aTV1dGsxb2U1NXIxN3dteWhmMHRtZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WsJzXF8M8tl6w/giphy.gif
 comments: "false"
 ---

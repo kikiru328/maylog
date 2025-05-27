@@ -6,9 +6,9 @@ description: 운영체제가 파일을 찾는 법
 draft: false
 tags:
   - cs/os
-permalink: /cs/os/file-system
+permalink: /file-system
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:16
+updated: 2025-05-28T07:14
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdrMjA1cHNrZXl6a2RnNGRqdWg4c2I2b2traHNodHpwZ3A0ZmptdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6Ztk7NosfLVRqcpy/giphy.gif
 ---
 <p align="center">

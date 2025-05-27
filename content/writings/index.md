@@ -5,9 +5,9 @@ aliases:
 description: 끄적끄적..
 draft: false
 tags: 
-permalink: /writing/contents
+permalink: /contents
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:19
+updated: 2025-05-28T07:15
 socialImage: 
 comments: "false"
 ---

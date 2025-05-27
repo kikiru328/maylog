@@ -5,9 +5,9 @@ aliases:
 description: CS 관련 모음
 draft: false
 tags: 
-permalink: 
+permalink: /contents
 created: 2025-04-22T15:27
-updated: 2025-05-09T16:33
+updated: 2025-05-28T07:16
 socialImage: og-image.png
 comments: "false"
 ---

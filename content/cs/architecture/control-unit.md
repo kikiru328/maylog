@@ -6,9 +6,9 @@ description: CPU의 뇌, ALU에게 전달하기 위한 신경 장치, Control Un
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/control-unit
+permalink: /control-unit
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:13
+updated: 2025-05-28T07:17
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc213ajBxM2UycGxjZzhnZ2prbXh5cTBxYzU2d2JtazZ5c2JmMGc0OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ofSBiM95Lzb5tg1Fu/giphy.gif
 ---
 <p align="center">

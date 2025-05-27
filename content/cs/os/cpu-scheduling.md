@@ -6,9 +6,9 @@ description: CPU 자원을 관리하는, cpu 스케쥴링
 draft: false
 tags:
   - cs/os
-permalink: /cs/os/cpu-scheduling
+permalink: /cpu-scheduling
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:16
+updated: 2025-05-28T07:14
 socialImage: https://media.giphy.com/media/whPlhyT1tMkvjbE873/giphy.gif?cid=ecf05e47be0wuy6zmjmlfbsu3928sfgpv8j509d5o7sqouqb&ep=v1_gifs_search&rid=giphy.gif&ct=g
 ---
 <p align="center">

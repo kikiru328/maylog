@@ -6,9 +6,9 @@ description: 컴퓨터가 이해하는 정보는 다양하게 구성되어 있�
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/readable-data
+permalink: /readable-data
 created: 2025-04-21T23:45
-updated: 2025-05-27T18:13
+updated: 2025-05-28T07:17
 socialImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3lndmhqbzQxdW1kcXRkd3ZkNWoyb3U0NHVpaTVhNXUzY2xuMWVoYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AUMxbiDIzBOiFGA71r/giphy.gif
 ---
 <p align="center">

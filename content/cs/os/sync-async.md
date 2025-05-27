@@ -6,9 +6,9 @@ description: 동기와 비동기, 어떤 것에 차이가 있을까
 draft: false
 tags:
   - cs/os
-permalink: /cs/os/sync-async
+permalink: /sync-async
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:15
+updated: 2025-05-28T07:14
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDg3cnhvamN4dHU2dGViN3BtcDFoNGR5bWFtZzYwcXNheDUxNGpmZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hyQ8ESUyePo2s/giphy.gif
 ---
 <p align="center">

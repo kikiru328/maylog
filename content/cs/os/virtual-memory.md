@@ -6,9 +6,9 @@ description: CPU 자원을 관리하는 방법, 가상 메모리 사용
 draft: false
 tags:
   - cs/os
-permalink: /cs/os/virtual-memory
+permalink: /virtual-memory
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:16
+updated: 2025-05-28T07:15
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3ZvY2tmZ3NtMHowc2R3eTk5cW1xYjlzaGhpNGFpYWJuOXRkcmFmcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oEdv8JrySco9IL1V6/giphy.gif
 ---
 <p align="center">

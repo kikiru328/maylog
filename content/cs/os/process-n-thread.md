@@ -6,9 +6,9 @@ description: 프로세스와 스레드에 관하여
 draft: false
 tags:
   - cs/os
-permalink: /cs/os/process-thread
+permalink: /process-thread
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:16
+updated: 2025-05-28T07:14
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc21xdGRnbzVxM2VwN3R4bHBjYTBtcmtvMGNlNWZtejRkNDNsdmxzaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/quuIo0rCMQK6KHMrJD/giphy.gif
 ---
 <p align="center">

@@ -6,9 +6,9 @@ description: Description of the page used for link previews.
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/complement-representation
+permalink: /complement-representation
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:11
+updated: 2025-05-28T07:16
 socialImage: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnpkOTh5MTQ5Z3lkZzRtam1vczYxYW5pOXR0MDgyeWMxdTF6dWg4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btPCcdNniyf0ArS/giphy.gif
 ---
 

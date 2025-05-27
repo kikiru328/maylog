@@ -6,9 +6,9 @@ description: 자료구조와 알고리즘의 기초. 시간 복잡도와 공간 
 draft: false
 tags:
   - cs/structure
-permalink: /cs/structure/time-space-complexity
+permalink: /time-space-complexity
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:17
+updated: 2025-05-28T07:15
 socialImage: https://media1.tenor.com/m/z_KoI0-y7rEAAAAC/chaos.gi
 ---
 

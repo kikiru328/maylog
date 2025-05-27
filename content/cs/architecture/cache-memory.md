@@ -6,9 +6,9 @@ description: CPU와 메모리의 다리, 캐시메모리
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/cache-memory
+permalink: /cache-memory
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:14
+updated: 2025-05-28T07:16
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanJwbHgxa2k3eGRzc3pjcmg0dnloY2V2NmprMXhmcWt5OTN1ZG1kdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/f8WG3NAyOMFHroIEj0/giphy.gif
 ---
 <p align="center">

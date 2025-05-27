@@ -6,9 +6,9 @@ description: 저장을 위한 기억 장치
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/memory
+permalink: /memory
 created: 2025-04-22T00:07
-updated: 2025-05-27T18:14
+updated: 2025-05-28T07:17
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNrbGRjZm91OHdzeG0xbnEzcmFxaTYzaXAyZzR1N3IweHNyb3RxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BkfAhfmX0Ppn2/giphy.gif
 ---
 <p align="center">

@@ -6,9 +6,9 @@ description: 동시에 프로세스를 구성하고 실행하는 법, 멀티 프
 draft: false
 tags:
   - cs/os
-permalink: /cs/os/multi-process
+permalink: /multi-process
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:16
+updated: 2025-05-28T07:14
 socialImage: https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW0xbnI1dmVqc3FvbDB4cjg5cm83eXE2M3JkeGpoMjAwYWRmd2Z4dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NV4cSrRYXXwfUcYnua/giphy.gif
 ---
 <p align="center">

@@ -5,9 +5,9 @@ aliases:
 description: backend messaging contents
 draft: false
 tags: 
-permalink: /messaging-contents
+permalink: /contents
 created: 2025-03-22T15:16
-updated: 2025-05-13T21:12
+updated: 2025-05-28T07:18
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanQ0MzI3djcxamoydzQwdm5waHI1MXc0cWN6bHJkYjVtb3pnbWh6NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/n7PjZc4B0DJHMfISNk/giphy.gif
 comments: "false"
 ---

@@ -5,9 +5,9 @@ aliases:
 description: 백엔드 관련 내용을 다룹니다.
 draft: false
 tags: 
-permalink: /backend-contents
+permalink: /contents
 created: 2025-03-22T15:16
-updated: 2025-05-13T21:12
+updated: 2025-05-28T07:18
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTQwdmgyaHU0ZzV3YXZnczF2c3Z4dDB2NmFmYmxyN3JsZmk5bjM4cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gWoTJPQ0JEv6Z9EJ0z/giphy.gif
 ---
 <p align="center">

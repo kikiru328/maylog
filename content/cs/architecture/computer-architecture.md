@@ -6,9 +6,9 @@ description: 컴퓨터 과학은 컴퓨터를 아는 것 부터.
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/computer-architecture
+permalink: /computer-architecture
 created: 2025-04-21T17:59
-updated: 2025-05-27T18:13
+updated: 2025-05-28T07:17
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN29haW93dmxyaTU5MTQwNzdzdmhnYnI4Nmg0a2d5Mmd6ZmtpcXRuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CTX0ivSQbI78A/giphy.gif
 ---
 <p align="center">

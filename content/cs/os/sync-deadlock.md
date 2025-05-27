@@ -6,9 +6,9 @@ description: 우리는 언제나 동기화를 진행한다.
 draft: false
 tags:
   - cs/os
-permalink: /cs/os/sync-deadlock
+permalink: /sync-deadlock
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:16
+updated: 2025-05-28T07:14
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZ1amNneXdqOWo5bm15Z2NrMG9ubmdpMTJvejlhYWw5djQ2bHpwOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l46Cv8ujmQBUv7Kq4/giphy.gif
 ---
 <p align="center">

@@ -6,9 +6,9 @@ description: 작업 도중 맥을 끊은 interrupt
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/interrupt
+permalink: /interrupt
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:14
+updated: 2025-05-28T07:17
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3RwdGxicXdyZ3FzZmdhaHB6ZTI5a2xsb3hveWV5aWZ5enFtaGc5ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/P8FDI9Izj0ALcDqBdo/giphy.gif
 ---
 <p align="center">

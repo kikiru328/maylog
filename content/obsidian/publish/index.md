@@ -5,9 +5,9 @@ aliases:
 description: 옵시디언으로 블로그를 만들어보자
 draft: false
 tags: 
-permalink: /obsidian/publish/contents
+permalink: /contents
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:18
+updated: 2025-05-28T07:15
 socialImage: https://media1.tenor.com/m/8rz9Vgpe0BcAAAAC/blog.gif
 ---
 <p align="center">

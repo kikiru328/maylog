@@ -6,9 +6,9 @@ description: CPU의 성능은 어떻게 향상 시킬 수 있을까?
 draft: false
 tags:
   - cs/computer
-permalink: /cs/architecture/cpu-upgrade
+permalink: /cpu-upgrade
 created: 2025-03-22T15:16
-updated: 2025-05-27T18:13
+updated: 2025-05-28T07:17
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWtxZnd0MmpsbG1leHAzODU2M2hsc21pYjBhY3VzMzIzbDFxbzlxZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5tvJS6ZZslR9nBYxUA/giphy.gif
 ---
 <p align="center">
