@@ -1,14 +1,14 @@
 ---
 title: 운영체제
 aliases:
-  - os
+  - operate-system
 description: OS, 운영체제란 무엇인가
 draft: false
 tags:
   - cs/os
-permalink: /os
+permalink: /cs/os/operate-system
 created: 2025-03-22T15:16
-updated: 2025-05-13T17:40
+updated: 2025-05-27T18:14
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmpqaTI3ZXo5aGZheW5zNXV4aTV1dGsxb2U1NXIxN3dteWhmMHRtZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WsJzXF8M8tl6w/giphy.gif
 ---
 <p align="center">
@@ -29,7 +29,7 @@ socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmpqaTI3ZXo5aGZhe
 
 운영체제의 핵심 중 하나는 **자원 할당 및 관리**이다. 경영 부서가 회사의 자원을 아무렇게 주지도 않을 뿐더러, 관리조차 안 하면 각 부서들은 혼란에 휩싸일 것이다. 마찬가지로 운영체제 또한 자원을 할당하고, 관리하는데 이 자원은 **"시스템 자원"** 이다. 시스템 자원은 프로그램 실행에 필요한 요소를 말하는데, 데이터 (소프트웨어), 부품 (하드웨어) 등을 말한다.
 
-운영체제는 응용 프로그램을 대신해 [[03-cpu|CPU]], [[04-memory|메모리]], [[05-secondary-storage|보조 기억 장치]] 등 부품에 접근하고, 각 부품이 효율적으로 운영되게 한다. 또한 응용 프로그램들이 부품들을 효율적으로 할당을 받아 실행되도록 시스템 자원들을 할당하기도 한다.
+운영체제는 응용 프로그램을 대신해 [[cpu|cpu]], [[memory|메모리]], [[secondary-storage|보조 기억 장치]] 등 부품에 접근하고, 각 부품이 효율적으로 운영되게 한다. 또한 응용 프로그램들이 부품들을 효율적으로 할당을 받아 실행되도록 시스템 자원들을 할당하기도 한다.
 </br></br></br>
 # 참고자료
 ※ 이 글은 [『이것이 컴퓨터 과학이다』](https://product.kyobobook.co.kr/detail/S000214014967) 책을 기반으로, 다양한 자료를 참고해 작성했습니다.

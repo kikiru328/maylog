@@ -6,9 +6,9 @@ description: 옵시디언을 블로그 백엔드로서 사용해보자
 draft: false
 tags:
   - obsidian/publish
-permalink: /how-to-publish-obsidian
+permalink: /obsidian/publish/how-to-publish-obsidian
 created: 2025-03-22T15:16
-updated: 2025-05-13T18:20
+updated: 2025-05-27T18:18
 socialImage: https://media1.tenor.com/m/dDm5Xm0P_JYAAAAC/superstore-amy-sosa.gif
 ---
 <p align="center">

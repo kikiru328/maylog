@@ -5,9 +5,9 @@ description: Description of the page used for link previews.
 draft: true
 tags:
   - cs/os
-permalink: 
+permalink: /cs/os/
 created: 2025-03-22T15:16
-updated: 2025-05-13T17:41
+updated: 2025-05-27T18:16
 socialImage: 
 ---
 ```

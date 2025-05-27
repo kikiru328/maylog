@@ -6,9 +6,9 @@ description: 운영체제가 파일을 찾는 법
 draft: false
 tags:
   - cs/os
-permalink: /file-system
+permalink: /cs/os/file-system
 created: 2025-03-22T15:16
-updated: 2025-05-19T09:37
+updated: 2025-05-27T18:16
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdrMjA1cHNrZXl6a2RnNGRqdWg4c2I2b2traHNodHpwZ3A0ZmptdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6Ztk7NosfLVRqcpy/giphy.gif
 ---
 <p align="center">
@@ -17,7 +17,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdrMjA1cHNrZXl6a2
 
 # 파일 시스템
 
-[[05-secondary-storage|보조 기억 장치]]에는 수많은 파일와 디렉토리가 저장되어 있다. 운영체제는 보조 기억 장치에 저장되어 있는 것들을 어떻게 효과적으로 관리하는지 알아보자.  
+[[secondary-storage|보조 기억 장치]]에는 수많은 파일와 디렉토리가 저장되어 있다. 운영체제는 보조 기억 장치에 저장되어 있는 것들을 어떻게 효과적으로 관리하는지 알아보자.  
 
 ## 파일과 디렉토리
 
@@ -26,14 +26,14 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdrMjA1cHNrZXl6a2
 - 파일의 속성
 	- 파일의 이름, 파일을 실행하기 위한 정보, 파일의 형식, 위치, 크기 등
 
-파일을 다루는 모든 작업은 [[08-os|운영 체제]]에 의해 이루어진다. 즉, 응용 프로그램은 임의로 파일을 할당 받아 조작, 저장이 불가능하고, 파일을 다루는 [[08.2-system-call#^b033cf|시스템 콜]]을 이용해야 한다.
+파일을 다루는 모든 작업은 [[operate-system|운영 체제]]에 의해 이루어진다. 즉, 응용 프로그램은 임의로 파일을 할당 받아 조작, 저장이 불가능하고, 파일을 다루는 [[system-call#^b033cf|시스템 콜]]을 이용해야 한다.
 
 프로세스가 시스템 콜을 통해 10개의 파일을 할당 받았다면, 프로세스는 할당을 받아 사용 중인 파일을 모두 구분하기 위해 **파일 디스크립터 (파일 핸들)** 를 사용한다. 
 
 파일 디스크립터는 저수준에서 파일을 식별하는 정보이며, `0`이상의 정수 형태를 띄고 있다. 운영체제는 프로세스가 새로운 파일을 열거나 만들 때, 파일 디스크립터를 부여하여 구분하게 한다. 즉, 쉽게 말하자면 파일 디스크립터는 각 파일을 구분하게 하는 꼬리표 같은 것이다.
 
 > [!note] 파일 디스크립터는 파일만 식별할까?
-> 실제로 파일 디스크립터는 파일만 식별하지 않는다. [[06-io-devices|입출력장치]], IPC 파이프, 소켓 등도 식별한다.
+> 실제로 파일 디스크립터는 파일만 식별하지 않는다. [[io-devices|입출력장치]], IPC 파이프, 소켓 등도 식별한다.
 
 **디렉토리**는 `종이 들을 모아 둔 보관함`이라고 생각하면 편하다. 도서관에서 책 한권을 찾기 위해 몇 번 복도 몇 책장의 몇 줄로 기록되어 있는 것 처럼 말이다. 최근의 모든 디렉토리는 나무 가지처럼 생겨 **트리 구조 디렉토리**로 구성되어 있다. 
 

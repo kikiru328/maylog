@@ -6,9 +6,9 @@ description: 동기와 비동기, 어떤 것에 차이가 있을까
 draft: false
 tags:
   - cs/os
-permalink: /sync-async
+permalink: /cs/os/sync-async
 created: 2025-03-22T15:16
-updated: 2025-05-13T17:41
+updated: 2025-05-27T18:15
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDg3cnhvamN4dHU2dGViN3BtcDFoNGR5bWFtZzYwcXNheDUxNGpmZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hyQ8ESUyePo2s/giphy.gif
 ---
 <p align="center">
@@ -55,11 +55,11 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDg3cnhvamN4dHU2dG
 ### I/O 처리
 
 - 디스크, 네트워크와 같은 장치는 작업 시간이 길기 때문에 비동기 처리가 적합하다.
-- [[08-os|OS]]는 [[03.4-interrupt|인터럽트]] 기반으로 결과를 알려주는 방식으로 비동기를 구현한다.
+- [[operate-system|OS]]는 [[interrupt|인터럽트]] 기반으로 결과를 알려주는 방식으로 비동기를 구현한다.
 ### 시스템 콜
 
 - `read()`, `write()` 등은 전통적으로 동기 호출이다.
-- 최근에는 `aio_read()`, `epoll()` 같은 비동기 [[08.2-system-call|시스템 콜]]도 제공된다.
+- 최근에는 `aio_read()`, `epoll()` 같은 비동기 [[system-call|시스템 콜]]도 제공된다.
 
 ## 동기 시 문제
 

@@ -6,9 +6,9 @@ description: 비 휘발성 메모리, 보조기억장치
 draft: false
 tags:
   - cs/computer
-permalink: /secondary-storage
+permalink: /cs/architecture/secondary-storage
 created: 2025-04-22T00:09
-updated: 2025-05-13T17:40
+updated: 2025-05-27T18:12
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDBvcWU4MmNwNXowemI5ZDd6dGR2MnF5ZTBodDJmajV5Zmp0cGh0OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/101IgDtwWFQKti/giphy.gif
 ---
 <p align="center">

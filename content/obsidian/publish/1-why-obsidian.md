@@ -6,9 +6,9 @@ description: 옵시디언으로 블로그를 왜 만들게 되었을까
 draft: false
 tags:
   - obsidian/publish
-permalink: /why-obsidian
+permalink: /obsidian/publish/why-obsidian
 created: 2025-03-22T15:16
-updated: 2025-05-13T17:57
+updated: 2025-05-27T18:19
 socialImage: https://wikidocs.net/images/page/270322/1-2._%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%84%91%E1%85%B3_%E1%84%87%E1%85%B2_2.gif
 ---
 <p align="center">

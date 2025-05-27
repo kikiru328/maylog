@@ -6,9 +6,9 @@ description: Description of the page used for link previews.
 draft: false
 tags:
   - cs/computer
-permalink: /complement-representation
+permalink: /cs/architecture/complement-representation
 created: 2025-03-22T15:16
-updated: 2025-05-13T17:39
+updated: 2025-05-27T18:11
 socialImage: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnpkOTh5MTQ5Z3lkZzRtam1vczYxYW5pOXR0MDgyeWMxdTF6dWg4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btPCcdNniyf0ArS/giphy.gif
 ---
 
@@ -50,7 +50,7 @@ socialImage: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnpkOTh5MTQ5Z3lkZ
 2의 보수를 쓰는 이유는 다음과 같은데,
 - 0은 단 하나의 `0000 0000`으로 만 표현할 수 있다.
 - 덧셈 회로 하나로 덧셈과 뺄셈을 모두 처리할 수 있다.
-- 부호 비트 ([[04-memory#^MSB-LSB|MSB]])를 통해 양수/음수를 쉽게 구분할 수 있다. ^6e95a2
+- 부호 비트 ([[memory#^MSB-LSB|MSB]])를 통해 양수/음수를 쉽게 구분할 수 있다. ^6e95a2
 - 오버플로우 처리가 쉽다.
 
 ### 그렇다면 뺄셈은 어떻게 하는가

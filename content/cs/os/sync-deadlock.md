@@ -6,9 +6,9 @@ description: 우리는 언제나 동기화를 진행한다.
 draft: false
 tags:
   - cs/os
-permalink: /sync-deadlock
+permalink: /cs/os/sync-deadlock
 created: 2025-03-22T15:16
-updated: 2025-05-13T17:41
+updated: 2025-05-27T18:16
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZ1amNneXdqOWo5bm15Z2NrMG9ubmdpMTJvejlhYWw5djQ2bHpwOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l46Cv8ujmQBUv7Kq4/giphy.gif
 ---
 <p align="center">
@@ -17,7 +17,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZ1amNneXdqOWo5bm
 
 # 동기화
 
-[[09-process-n-thread#^41799a|프로세스]] 혹은 [[03.5-cpu-upgrade#^244b85|스레드]]는 실행하기 위해선 자원이 필요하다. 하지만 모든 자원을 독점할 수는 없는 법. 프로세스 혹은 스레드가 공유하는 자원 또한 독점할 수 없이 공유한다. 이 **공유 자원**은 [[04-memory|메모리]] 혹은 파일이 될 수 있고, 전역 변수나 [[06-io-devices|입출력 장치]]일 수도 있다. 공유 자원을 두고 동시 다발적으로 여러 프로세스와 스레드가 동시에 접근한다면, melee 전과 마찬가지로 그냥 서로가 서로를 죽이자는 것과 같을 수 있다.
+[[process-n-thread#^41799a|프로세스]] 혹은 [[cpu-upgrade#^244b85|스레드]]는 실행하기 위해선 자원이 필요하다. 하지만 모든 자원을 독점할 수는 없는 법. 프로세스 혹은 스레드가 공유하는 자원 또한 독점할 수 없이 공유한다. 이 **공유 자원**은 [[memory|메모리]] 혹은 파일이 될 수 있고, 전역 변수나 [[io-devices|입출력 장치]]일 수도 있다. 공유 자원을 두고 동시 다발적으로 여러 프로세스와 스레드가 동시에 접근한다면, melee 전과 마찬가지로 그냥 서로가 서로를 죽이자는 것과 같을 수 있다.
 
 <p align="center">
   <img src="https://edgio.clien.net/F01/14869294/28f918bee2c483.jpg?scale=width:480" alt="note title" width="200">
@@ -120,7 +120,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZ1amNneXdqOWo5bm
 
 ## 해결 방법
 
-그렇다면 이걸 어떻게 해결할까? [[08-os|운영체제]]는 애초에 교착 상태의 발생 조건에 부합하지 않도록 자원을 분배하는 방식으로 교차 상태를 예방할 수 있으며, 조금씩 할당하다가 할당하지 않는 방식으로 회피 하기도 한다. 또한 자원을 제약 없이 할당하다가 검출한 후 회복 시키기도 한다.
+그렇다면 이걸 어떻게 해결할까? [[operate-system|운영체제]]는 애초에 교착 상태의 발생 조건에 부합하지 않도록 자원을 분배하는 방식으로 교차 상태를 예방할 수 있으며, 조금씩 할당하다가 할당하지 않는 방식으로 회피 하기도 한다. 또한 자원을 제약 없이 할당하다가 검출한 후 회복 시키기도 한다.
 
 1. 교착 상태 예방
 	- 교착 상태를 발생시키는 4가지 필요 조건 중 하나를 충족시키지 못하게 막아버리는 방법이 있다.

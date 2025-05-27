@@ -6,9 +6,9 @@ description: CPU의 구성 요소 중 가장 중요한 Register
 draft: false
 tags:
   - cs/computer
-permalink: /register
+permalink: /cs/architecture/register
 created: 2025-03-22T15:16
-updated: 2025-05-13T17:39
+updated: 2025-05-27T18:13
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdpOHFkbXZzN2ExZnM5ejdrYjdnNHU5Nm1wZXp1cXhpa3FlZDdpMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/970Sr8vpwEbXG/giphy.gif
 ---
 <p align="center">
@@ -18,14 +18,14 @@ socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdpOHFkbXZzN2ExZ
 
 # 레지스터
 
-레지스터는 [[03-cpu|CPU]]에서 가장 중요한 부품이다. CPU가 처리하는 과정의 모든 중간 값들이 이 곳에 저장되기 때문이다. 레지스터는 프로세서 레지스터라고 쉽게 볼 수 있는데, CPU의 빠른 **데이터 처리를 돕기 위해 사용되는 임시 저장 공간**이라고 생각하면 편하다. ^register-def
+레지스터는 [[cpu|cpu]]에서 가장 중요한 부품이다. CPU가 처리하는 과정의 모든 중간 값들이 이 곳에 저장되기 때문이다. 레지스터는 프로세서 레지스터라고 쉽게 볼 수 있는데, CPU의 빠른 **데이터 처리를 돕기 위해 사용되는 임시 저장 공간**이라고 생각하면 편하다. ^register-def
 
 # 레지스터의 종류
 
 레지스터는 CPU에서 다양한 이름과 역할로 분리되어 있는데, 대표적으로 프로그램, 명령어, 범용, 플래그 레지스터가 있다.
 
 1. **프로그램 카운터**
-프로그램 카운터는 [[04-memory|메모리]]에서 다음으로 읽어 들일 [[02-readable-data#^address-def|명령어의 주소]]를 저장한다. (**명령어 포인트**라고 부르기도 함). 
+프로그램 카운터는 [[memory|메모리]]에서 다음으로 읽어 들일 [[readable-data#^address-def|명령어의 주소]]를 저장한다. (**명령어 포인트**라고 부르기도 함). 
 </br></br>  ^2017eb
 2. **명령어 레지스터**
 해석할 명령어를 저장하는 레지스터를 의미한다.   
@@ -45,7 +45,7 @@ CPU는 명령어 레지스터 속 명령어를 해석한 뒤, ALU, 산술 논리
 | 제로 플래그                                           | 연산 결과가 0인지                    |
 | 캐리 플래그                                           | 연산 결과에 올림수나 빌림수가 발생했는지        |
 | 오버플로우 플래그                                        | 오버플로우 발생 여부                   |
-| [[03.4-interrupt#^interrupt-flag-def\|인터럽트 플래그]] | 인터럽트 가능 여부                    |
+| [[interrupt#^interrupt-flag-def\|인터럽트 플래그]] | 인터럽트 가능 여부                    |
 | 슈퍼바이저 플래그                                        | 커널 모드로 실행 중인지, 사용자 모드로 실행 중인지 |
 
 5. **스택 포인터**

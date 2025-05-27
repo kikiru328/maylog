@@ -5,9 +5,9 @@ aliases:
 description: Operating System Contents
 draft: false
 tags: 
-permalink: /operating-system-contents
+permalink: /cs/os/contents
 created: 2025-03-22T15:16
-updated: 2025-05-09T16:33
+updated: 2025-05-27T18:16
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmpqaTI3ZXo5aGZheW5zNXV4aTV1dGsxb2U1NXIxN3dteWhmMHRtZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WsJzXF8M8tl6w/giphy.gif
 comments: "false"
 ---
@@ -34,10 +34,10 @@ comments: "false"
 
 운영체제의 기반이 되는 구조와, 사용자와 커널 사이의 소통 방식에 대한 이해는 모든 OS 학습의 출발점이다.
 
-- [[08.1-kernel|커널: 운영체제의 엔진]]  
+- [[kernel|커널: 운영체제의 엔진]]  
     : 하드웨어 제어, 메모리 관리, 시스템 호출 처리 등을 담당하는 OS의 핵심 구성 요소이다.
     
-- [[08.2-system-call|시스템 콜]]  
+- [[system-call|시스템 콜]]  
     : 사용자 프로그램이 커널 기능을 사용할 수 있도록 하는 인터페이스. 응용 프로그램과 운영체제를 연결하는 '문' 역할을 한다.
     
 
@@ -47,10 +47,10 @@ comments: "false"
 
 현대의 운영체제는 다수의 프로그램을 동시에 실행하는 **멀티태스킹 환경**을 지원하며, 이를 위해 프로세스와 스레드를 세밀하게 제어한다.
 
-- [[09-process-n-thread|프로세스와 스레드]]  
+- [[process-n-thread|프로세스와 스레드]]  
     : 실행 단위(프로세스)와 경량 실행 단위(스레드)의 차이 및 구조 이해
     
-- [[10-sync-deadlock|동기화와 교착상태]]  
+- [[sync-deadlock|동기화와 교착상태]]  
     : 여러 프로세스 간 자원 충돌을 막기 위한 동기화 기법, 그리고 자원 경합에 의해 시스템이 멈추는 교착 상태(Deadlock)에 대한 대응 전략
     
 
@@ -60,7 +60,7 @@ comments: "false"
 
 운영체제의 또 다른 핵심 기능은 한정된 시스템 자원(CPU, 메모리, 저장장치 등)을 **공정하고 효율적으로 분배**하는 것이다.
 
-- [[11-cpu-scheduling|CPU 자원관리, CPU 스케줄링]]  
+- [[cpu-scheduling|CPU 자원관리, CPU 스케줄링]]  
     : 여러 프로세스가 CPU를 사용하는 순서를 결정하는 알고리즘. 선점/비선점 방식, 다양한 우선순위 기반 스케줄링
     
 - **메모리 관리: 가상 메모리**  
