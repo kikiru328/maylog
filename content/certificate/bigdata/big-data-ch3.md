@@ -8,7 +8,7 @@ tags:
   - certificate/cbda
 permalink: /modeling
 created: 2025-03-22T15:16
-updated: 2025-05-28T16:03
+updated: 2025-05-28T17:42
 socialImage: https://media1.tenor.com/m/OJlDoh5mrRYAAAAC/neural-network-ml.gif
 ---
 <p align="center">
@@ -248,7 +248,7 @@ socialImage: https://media1.tenor.com/m/OJlDoh5mrRYAAAAC/neural-network-ml.gif
 - 가지 : 노드와 노드를 잇는 선  
 - 깊이 : 가지를 이루고 있는 마디의 개수  
 
-## 의사결정 트리에서 사용하는 분류 기준
+## 의사결정 트리 분류 기준
 
 | 알고리즘  | 종속-이산형 | 종속-연속형    |
 | :---: | -----: | :-------- |

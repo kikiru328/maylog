@@ -8,7 +8,7 @@ tags:
   - certificate/cbda
 permalink: /analysis-plan
 created: 2025-03-22T15:16
-updated: 2025-05-28T11:30
+updated: 2025-05-28T17:41
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZwY3RrYXczaHk1aHc0enliamNjbTlmeGRkMnJsNjR5Y2xkYWF5NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/usz0fqhUiVxSs6IUKB/giphy.gif
 ---
 <p align="center">
@@ -63,7 +63,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZwY3RrYXczaHk1aH
 > `경제 산업적 측면`:  
 > 다양한 정보를 필요에 따라 신속 제공 이용 할 수 있는 인프라 특성을 보이기 때문.
 
-## 부문별 사회 기반 구조 데이터 베이스
+## 사회 기반 구조 데이터 베이스
 
 물류 : CVO서비스 / CALS / PORT-MIS(항만운영정보) / KROIS(철도운영정보)  
 지리 : GIS(지리정보) / LBS(위치정보) / SIM(공간정보 관리)  
@@ -113,7 +113,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZwY3RrYXczaHk1aH
 | 책임원칙훼손 | 결과 기반 책임 원칙 고수 |
 |  데이터오용  |    알고리즘 접근 허용    |
 
-## 데이터 사이언티스트에 요구되는 역량
+## 요구되는 역량
 
 > `하드스킬`:  빅데이터에 대한 이론적 지식, 분석 기술에 대한 숙련   
 > `소프트스킬`:  통찰력있는 분석, 설득력 있는 분석, 다분야 간 협력  
@@ -138,7 +138,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZwY3RrYXczaHk1aH
 3단계 : 전사 차원에서 분석관리, 공유  
 4단계 : 분석을 진화시켜 혁신 및 성과 향상에 기여  
 
-## ⭐️⭐️⭐️ 분석 준비도 및 성숙도 진단 결과 4분면
+## ⭐️⭐️⭐️ 준비도 및 성숙도 4분면
 
 | 분면종류 | 준비도 | 성숙도 | 내용                                 |
 | :------: | :----: | :----: | :----------------------------------- |
@@ -185,11 +185,11 @@ $\text{데이터소스} \rightarrow  \underbrace{\text{데이터수집} \rightar
 >`자기정보 결정권` + `데이터 경제 활성화`   
 `데이터통제 / ` `데이터제공 / ` `데이터활용 / `
 
-## 빅데이터 분석 기획의 능력 단위 요소
+## 기획의 능력 단위 요소
 
 도메인 이슈 도출, 분석 목표 수립, 프로젝트 계획, 보유데이터 자산 확인
 
-## ⭐️⭐️⭐️ 4가지 분석 요소 (OSID)
+## ⭐️⭐️⭐️ OSID
 
 - <u>하향식 접근법</u>  
 
