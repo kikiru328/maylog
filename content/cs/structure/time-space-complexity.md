@@ -8,7 +8,7 @@ tags:
   - cs/structure
 permalink: /time-space-complexity
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:15
+updated: 2025-05-28T08:13
 socialImage: https://media1.tenor.com/m/z_KoI0-y7rEAAAAC/chaos.gi
 ---
 
@@ -33,7 +33,7 @@ socialImage: https://media1.tenor.com/m/z_KoI0-y7rEAAAAC/chaos.gi
 > [!hint] 점근적 상한
 > 입력하는 $n$ 이 점점 증가하여 무한대로 커진다고 가정하자. $n$에 따라 실행 시간이 증가하지만. 한계에 점차 다가가는 것을 의미한다. 즉, 그 한계 이상으로는 커지지 않는다는 것을 내포한다.
 
-Big-O의 표기법으로는 $O(상환(n))$ 으로 표현된다. 예를 들면 $O(n^2)$는 입력값이 $n$이 증가하더라도 실행 시간의 증가율은 $n^2$보다는 작다는 것으로 알 수 있다.
+Big-O의 표기법으로는 $O(\text{상환}(n))$ 으로 표현된다. 예를 들면 $O(n^2)$는 입력값이 $n$이 증가하더라도 실행 시간의 증가율은 $n^2$보다는 작다는 것으로 알 수 있다.
 
 - $\theta$ 표기법: 평균적인 실행 시간. 
   $\theta(n^2)$ : 실행 시간의 증가율은 $n^2$과 같다.

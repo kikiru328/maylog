@@ -7,8 +7,9 @@ draft: false
 tags: 
 permalink: /contents
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:18
+updated: 2025-05-28T07:39
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTQwdmgyaHU0ZzV3YXZnczF2c3Z4dDB2NmFmYmxyN3JsZmk5bjM4cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gWoTJPQ0JEv6Z9EJ0z/giphy.gif
+comments: "false"
 ---
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2Z3Y3kza2pmZTJzb2lldTh2azQzcGR5aTFmNGY1c3B4eHAzcXZvbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Qn74oPyaKYBpVWdA7t/giphy.gif" alt="note title" width="300">

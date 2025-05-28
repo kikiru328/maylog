@@ -8,7 +8,7 @@ tags:
   - cs/os
 permalink: /virtual-memory
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:15
+updated: 2025-05-28T08:12
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3ZvY2tmZ3NtMHowc2R3eTk5cW1xYjlzaGhpNGFpYWJuOXRkcmFmcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oEdv8JrySco9IL1V6/giphy.gif
 ---
 <p align="center">
@@ -90,7 +90,7 @@ graph TD
 
 ### 물리 메모리보다 큰 프로세스
 
-연속 메모리 할당으로 인한 문제는 또 다른 문제를 야기한다. 프로세스를 반드시 연속적으로 메모리에 할당한다고 가정할 때, 커널 영역을 포함한 메모리가 4GB, 프로세스가 4GB라고 하면 $프로세스 > 물리메모리$ 로 인해 적재할 수가 없다.
+연속 메모리 할당으로 인한 문제는 또 다른 문제를 야기한다. 프로세스를 반드시 연속적으로 메모리에 할당한다고 가정할 때, 커널 영역을 포함한 메모리가 4GB, 프로세스가 4GB라고 하면 $\text{프로세스} > \text{물리메모리}$ 로 인해 적재할 수가 없다.
 
 하지만 현대 프로그램은 이 보다 훨씬 큰 용량을 차지하고 있고 우리는 잘 사용하고 있다. 이를 해결하기 위한 방법이 바로 이 글의 주제인 **"가상 메모리 관리 기법**"이다.
 

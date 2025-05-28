@@ -53,7 +53,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer(
       {
-        title: "Contents"
+        title: "Technical",
       }
     ),
     Component.DesktopOnly(

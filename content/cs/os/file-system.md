@@ -8,7 +8,7 @@ tags:
   - cs/os
 permalink: /file-system
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:14
+updated: 2025-05-28T09:52
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdrMjA1cHNrZXl6a2RnNGRqdWg4c2I2b2traHNodHpwZ3A0ZmptdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6Ztk7NosfLVRqcpy/giphy.gif
 ---
 <p align="center">
@@ -85,6 +85,8 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdrMjA1cHNrZXl6a2
 > 	- 같은 아이노드 번호를 갖는 파일을 생성함. 하드 링크 파일은 원본 파일이 삭제되거나 이동되더라고 파일 데이터에 접근이 가능
 > - 심볼릭링크
 > 	- 같은 파일 데이터를 공유하지 않고 원본 파일의 위치만 저장하기 때문에 원본 파일이 삭제되너가 이동되면 데이터에 접근이 어렵다.
+
+^e77b05
 
 ### 마운트
 

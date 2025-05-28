@@ -1,8 +1,8 @@
 ---
-title: Writings
+title: Journal
 aliases:
-  - writing
-description: 끄적끄적..
+  - journal
+description: 내 생각들을 적어보는 글 모음
 draft: false
 tags: 
 permalink: /contents
@@ -11,4 +11,4 @@ updated: 2025-05-28T08:44
 socialImage: 
 comments: "false"
 ---
-내 생각과 경험. 리뷰들을 포함합니다.
+나의 생각 모음집

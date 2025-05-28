@@ -1,13 +1,12 @@
 ---
-title: 자료구조
-aliases:
-  - data-structure-contents
+title: Data Structure
+aliases: 
 description: 자료구조 내용
 draft: true
 tags: 
 permalink: /contents
 created: 2025-04-22T15:27
-updated: 2025-05-28T07:15
+updated: 2025-05-28T07:28
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDhtbzFwcmVxYXdpeWNka2p6anUzbHcybjdiaGlmYjVyZnc0cmd0ayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3hLW6IdSX4CMW8RrBn/giphy.gif
 comments: "false"
 ---
