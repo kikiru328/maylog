@@ -8,7 +8,7 @@ tags:
   - backend/infrastructure
 permalink: /redis
 created: 2025-03-22T15:16
-updated: 2025-05-13T21:12
+updated: 2025-05-28T21:29
 socialImage: https://media1.tenor.com/m/3DOAqgdRMasAAAAC/minion-memory-alert.gif
 ---
 <p align="center">
@@ -32,7 +32,7 @@ Redis는 데이터 베이스 특징과 조금 특이한 특징들을 갖고 있�
 <br/>
 2. **다양한 자료 구조 지원**
 
-	Redis는 단순한 문자열 저장 뿐 아니라, 리스트, 집합, 해쉬, 정렬된 집합 등을 다양한 자료구조를 제공한다. 이러한 자료형들은 각각 큐, 태그, 사용자 정보, 랭킹 시스템 등으로 응용할 수 있어, 단순한 key-value 저장소를 넘어서 **작은 규모의 구조적 데이터 처리 시스템**으로 확장이 가능하다.
+	Redis는 단순한 문자열 저장 뿐 아니라, 리스트, 집합, 해쉬, 정렬된 집합 등을 다양한 자료구조를 제공한다. 이러한 자료형들은 각각 [[queue|큐]], 태그, 사용자 정보, 랭킹 시스템 등으로 응용할 수 있어, 단순한 key-value 저장소를 넘어서 **작은 규모의 구조적 데이터 처리 시스템**으로 확장이 가능하다.
 <br/>
 3. **TTL 기능**
 

@@ -8,7 +8,7 @@ tags:
   - backend/messaging
 permalink: /kafka
 created: 2025-03-22T15:16
-updated: 2025-05-13T21:12
+updated: 2025-05-28T21:29
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTR1eXRrYnB6ZDRyM3N1bjlnN3ZhYjI5N3Zwand1dzZnYnZ0cWZ6dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SCBMYV8nXzaO7tMfj3/giphy.gif
 ---
 <p align="center">

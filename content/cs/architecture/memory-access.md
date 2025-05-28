@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /memory-access
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:17
+updated: 2025-05-28T20:31
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenNjamljeXFzOTB3M3Zna290ZGh4aHhveG1vM2YzZTk1eXlxeTU4ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lxuvVZ6jzJib22nBjG/giphy.gif
 ---
 <p align="center">
@@ -28,7 +28,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenNjamljeXFzOTB3M3
 	- 순서를 따를 필요 없이 필요한 데이터만 빠르게 조회가 가능하다.
 - 대표 예시
 	- RAM (Random Access Memory)
-	- 배열의 인덱스 접근
+	- [[array#^68ebcd|배열]]의 인덱스 접근
 	- 데이터베이스 인덱스 조회
 - 장점
 	- 필요한 데이터만 빠르게 조회가 가능하다

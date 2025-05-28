@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /register
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:17
+updated: 2025-05-28T21:13
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdpOHFkbXZzN2ExZnM5ejdrYjdnNHU5Nm1wZXp1cXhpa3FlZDdpMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/970Sr8vpwEbXG/giphy.gif
 ---
 <p align="center">
@@ -49,7 +49,7 @@ CPU는 명령어 레지스터 속 명령어를 해석한 뒤, ALU, 산술 논리
 | 슈퍼바이저 플래그                                        | 커널 모드로 실행 중인지, 사용자 모드로 실행 중인지 |
 
 5. **스택 포인터**
-메모리에서는 실행 중인 프로그램이 **적재**되어 있다. 메모리 내 스택 영역의 최상단 스택 데이터 위치를 가르키는 레지스터가 바로 **스택 포인터**다. 
+메모리에서는 실행 중인 프로그램이 **적재**되어 있다. 메모리 내 [[process-n-thread#^241a21|스택 영역]]의 최상단 스택 데이터 위치를 가르키는 레지스터가 바로 **스택 포인터**다. 
 
 
 </br></br></br>

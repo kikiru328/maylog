@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /memory
 created: 2025-04-22T00:07
-updated: 2025-05-28T07:17
+updated: 2025-05-28T21:03
 socialImage: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanNrbGRjZm91OHdzeG0xbnEzcmFxaTYzaXAyZzR1N3IweHNyb3RxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BkfAhfmX0Ppn2/giphy.gif
 ---
 <p align="center">
@@ -53,7 +53,7 @@ DDR SDRAM, Double Data Rate SDRAM. 대역폭을 넓혀 속도를 빠르게 만�
 
 ### 메모리에 데이터 저장 방법
 
-그렇다면 메모리는 데이터를 어떻게 저장할까? [[readable-data|CPU는 0과 1, bit로 저장하고 관리한다고 했다.]] 반면 메모리는 대부분 `Byte`단위로 저장하고 관리하는 형식이기에 CPU로 부터 4byte ($2^5$bit) 혹은 8byte($2^6$bit)인 [[readable-data#^word-def|워드]] 단위로 받아 들인다. 그다음 받아드린 데이터는 여러 주소에 걸쳐 저장하게 된다. 쉽게, A 메모리가 한 주소에 1Byte를 저장한다면, 4Byte 데이터를 4개의 주소에 저장하는 것이다.
+그렇다면 메모리는 데이터를 어떻게 저장할까? [[readable-data|CPU는 0과 1, bit로 저장하고 관리한다고 했다.]] 반면 메모리는 대부분 `Byte`단위로 저장하고 관리하는 형식이기에 CPU로 부터 4byte ($2^5$bit) 혹은 8byte($2^6$bit)인 [[readable-data#^word-def|워드]] 단위로 받아 들인다. 그다음 받아드린 데이터는 여러 주소에 걸쳐 저장하게 된다. 쉽게, A 메모리가 한 주소에 1Byte를 저장한다면, 4Byte 데이터를 4개의 주소에 저장하는 것이다. ^ff0887
 
 메모리에 데이터를 저장하는 방식은 두 가지 방식으로 나뉜다. 바로 **빅 엔디안**과 **리틀 엔디안**이다.
 

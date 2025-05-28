@@ -8,7 +8,7 @@ tags:
   - certificate/cbda
 permalink: /analysis-plan
 created: 2025-03-22T15:16
-updated: 2025-05-28T17:41
+updated: 2025-05-28T21:28
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZwY3RrYXczaHk1aHc0enliamNjbTlmeGRkMnJsNjR5Y2xkYWF5NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/usz0fqhUiVxSs6IUKB/giphy.gif
 ---
 <p align="center">
@@ -414,7 +414,7 @@ Operatinal Data Store
 
 > 분산 시스템간의 정보 공유 및 **상태 체크, 동기화** 처리 프레임워크  
 > `코디네이션` 서비스 시스템  
-> 분산 큐, 분산 로크 등 다양한 기능
+> 분산 [[queue|큐]], 분산 로크 등 다양한 기능
 
 #### 우지 Oozie
 

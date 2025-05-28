@@ -8,7 +8,7 @@ tags:
   - cs/os
 permalink: /cpu-scheduling
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:14
+updated: 2025-05-28T21:28
 socialImage: https://media.giphy.com/media/whPlhyT1tMkvjbE873/giphy.gif?cid=ecf05e47be0wuy6zmjmlfbsu3928sfgpv8j509d5o7sqouqb&ep=v1_gifs_search&rid=giphy.gif&ct=g
 ---
 <p align="center">
@@ -34,7 +34,7 @@ socialImage: https://media.giphy.com/media/whPlhyT1tMkvjbE873/giphy.gif?cid=ecf0
 
 ### 스케줄링 큐
 
-모든 것은 순서가 있는 법. 자원을 이용하기 위해선 프로세스 들도 줄을 서서 기다려야 한다. CPU를 이용하고 싶거나 [[memory|메모리]]에 적재되고 싶은 프로세스 등등은 모두 줄을 서야 한다. 이 줄은 **스케줄링 큐**를 통해 구현된다. 
+모든 것은 순서가 있는 법. 자원을 이용하기 위해선 프로세스 들도 줄을 서서 기다려야 한다. CPU를 이용하고 싶거나 [[memory|메모리]]에 적재되고 싶은 프로세스 등등은 모두 줄을 서야 한다. 이 줄은 **스케줄링 [[queue|큐]]**를 통해 구현된다. 
 
 운영체제가 관리하는 큐에는 **준비 큐**와 **대기 큐**가 있다. CPU를 이용하고 싶은 프로세스의 PCB가 서는 줄은 **준비 큐**. 대기 상태에 접어든 프로세스의 PCB가 서는 줄이 **대기 큐**다. 주로 입출력 작업을 수행 중 일 경우, 대기 큐에서 대기 상태로 입출력 완료 인터럽트를 기다리게 된다.
 

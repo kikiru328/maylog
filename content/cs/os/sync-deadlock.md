@@ -8,7 +8,7 @@ tags:
   - cs/os
 permalink: /sync-deadlock
 created: 2025-03-22T15:16
-updated: 2025-05-28T07:14
+updated: 2025-05-28T21:29
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZ1amNneXdqOWo5bm15Z2NrMG9ubmdpMTJvejlhYWw5djQ2bHpwOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l46Cv8ujmQBUv7Kq4/giphy.gif
 ---
 <p align="center">
@@ -82,7 +82,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZ1amNneXdqOWo5bm
 - 아직 특정 프로세스가 실행될 조건이 되지 않았을 때는 `wait`
 - 특정 프로세스가 실행될 조건이 충족되었을 때는 `signal`을 통해 실행을 재개한다.
 
-그렇다면 **모니터**란 무엇일까? 모니터는 공유 자원과 그 공유 자원을 다루는 함수로 구성된 동기화 도구로, 상호 배제를 위한 동기화 뿐 만 아니라, 실행 순서 제어를 위한 동기화까지 가능하다. 프로세스 및 스레드는 공유 자원에 접근하기 위해 반드시 정해진 공유 자원 연산을 통해 모니터 내로 진입하고, 모니터 안에서 실행되는 프로세스 및 스레드는 오직 하나여야 한다. 이미 모니터 내로 진입하여 실행 중인 프로세스 및 스레드가 존재하면 큐에서 대기해야 한다.
+그렇다면 **모니터**란 무엇일까? 모니터는 공유 자원과 그 공유 자원을 다루는 함수로 구성된 동기화 도구로, 상호 배제를 위한 동기화 뿐 만 아니라, 실행 순서 제어를 위한 동기화까지 가능하다. 프로세스 및 스레드는 공유 자원에 접근하기 위해 반드시 정해진 공유 자원 연산을 통해 모니터 내로 진입하고, 모니터 안에서 실행되는 프로세스 및 스레드는 오직 하나여야 한다. 이미 모니터 내로 진입하여 실행 중인 프로세스 및 스레드가 존재하면 [[queue|큐]]에서 대기해야 한다.
 
 | 항목      | Mutex Lock | Semaphore | Monitor              |
 | ------- | ---------- | --------- | -------------------- |

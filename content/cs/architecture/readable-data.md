@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /readable-data
 created: 2025-04-21T23:45
-updated: 2025-05-28T07:17
+updated: 2025-05-28T21:13
 socialImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3lndmhqbzQxdW1kcXRkd3ZkNWoyb3U0NHVpaTVhNXUzY2xuMWVoYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AUMxbiDIzBOiFGA71r/giphy.gif
 ---
 <p align="center">
@@ -130,7 +130,7 @@ CPU는 명령으로 동작한다. **대상**을 어떤 **동작**으로 처리�
 | 데이터 전송   | MOVE                              | 데이터 옮기기                          |
 |          | STORE                             | 메모리 저장                           |
 |          | LOAD(FETCH)                       | 메모리를 CPU로 가져오기                   |
-|          | PUSH                              | 데이터 스택에 저장                       |
+|          | PUSH                              | 데이터 [[stack\|스택]]에 저장            |
 |          | POP                               | 스택 최상단 데이터 추출                    |
 | 산술/논리 연산 | ADD/SUBSTRACT/<br>MULTIPLY/DIVIDE | $+$, $-$, $\times$, $\div$  수행   |
 |          | INCREMENT<br>DECREMENT            | 오퍼랜드에 1을 더해라<br>오퍼랜드에 1을 빼라      |

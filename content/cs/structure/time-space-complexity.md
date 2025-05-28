@@ -8,7 +8,7 @@ tags:
   - cs/structure
 permalink: /time-space-complexity
 created: 2025-03-22T15:16
-updated: 2025-05-28T08:13
+updated: 2025-05-28T20:21
 socialImage: https://media1.tenor.com/m/z_KoI0-y7rEAAAAC/chaos.gi
 ---
 
@@ -24,7 +24,7 @@ socialImage: https://media1.tenor.com/m/z_KoI0-y7rEAAAAC/chaos.gi
 
 ## 시간 복잡도
 
-**시간 복잡도**는 **입력의 크기에 따른 프로그램의 실행 관계**를 의미한다. 말이 조금 어려운데, 데이터의 크기에 따라 혹은 <u>데이터의 처리의 양</u>에 따라 시간이 얼마나 걸리는가? 라고 생각하면 편하다.
+**시간 복잡도**는 **입력의 크기에 따른 프로그램의 실행 관계**를 의미한다. 말이 조금 어려운데, 데이터의 크기에 따라 혹은 <u>데이터의 처리의 양</u>에 따라 시간이 얼마나 걸리는가? 라고 생각하면 편하다. ^13c6e6
 
 ### Big-O 표기법
 
