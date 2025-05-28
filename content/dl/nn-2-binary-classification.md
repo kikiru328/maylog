@@ -8,7 +8,7 @@ tags:
   - deeplearning/network
 permalink: /binary-classification-nn
 created: 2025-03-22T15:16
-updated: 2025-05-28T17:28
+updated: 2025-05-28T20:11
 socialImage: https://media1.tenor.com/m/GVk4jB2u_i8AAAAd/coding.gif
 ---
 <p align="center">
@@ -31,7 +31,7 @@ Neural Network, 신경망을 구현시에 필요한 기술은 여러가지가 �
 
 ![](https://media.tenor.com/wVAjxnPa81IAAAAM/cat-cat-gif.gif)
 
-위와 같이 고양이 데이터를 컴퓨터가 인지시, Binary Classification로서 고양이를 1, 아니면 0으로 Label을 출력하게 된다. 고양이 데이터는 $(64px \times 64px)$, RGB값으로 3개의 채널이 분리된 행렬이 합쳐진 형태이다. RGB의 값들을 하나의 feature vector x 에 나열하면 $(64 \times 64 \times 3)$ 의 차원으로 나타난다. 전체 차원은 $12288$차원이며, x의 차원을 의미하는 $\\$(n_x)$는 $12288$이다.  
+위와 같이 고양이 데이터를 컴퓨터가 인지시, Binary Classification로서 고양이를 1, 아니면 0으로 Label을 출력하게 된다. 고양이 데이터는 $(64px\times64px)$, RGB값으로 3개의 채널이 분리된 행렬이 합쳐진 형태이다. RGB의 값들을 하나의 feature vector x 에 나열하면 $(64 \times 64 \times 3)$의 차원으로 나타난다. 전체 차원은 $12288$차원이며, x의 차원을 의미하는 $(n_x)$는 $12288$이다.  
 
 ## Neural Network 표기법
 
@@ -60,7 +60,7 @@ $$\text{Given } x, \text{ want } \hat{y} = P(y = 1 \mid x), \quad x \in \mathbb{
 > [!info] 수학 표기법
 $\hat{y}$ : y hat. y가 1이 될 수 있는 확률.
   
-위 수식을 설명하면, 주어진 input x 에 대해서 y가 1이 될 수 있는 확률을 구하는 것이다. 그리고 Output의 parameter는 $w \in \mathbb{R}^{n_x}$ 와 $b \in \mathbb{R}$ 이므로 아래와 같다.  
+위 수식을 설명하면, 주어진 input x 에 대해서 y가 1이 될 수 있는 확률을 구하는 것이다. 그리고 Output의 parameter는 $w\in\mathbb{R}^{n_x}$ 와 $b\in\mathbb{R}$ 이므로 아래와 같다.  
 
 $$\text{output } \hat{y} = w^T x + b$$
 
@@ -81,14 +81,14 @@ $$\text{Output};\ \hat{y} = \sigma(\underbrace{w^{T}x + b}_{z})$$
 ## Logisitic Regression Cost Function
 
 가중치 \(w,b \) parameter를 학습시키기 위해 Cost Function, 비용 함수를 정의해야한다.  
-$x^{(i)},\ y^{(i)},\ z^{(i)}$로 정의가 되며, $i$는 traning example이다.
+$x^{(i)},\ y^{(i)},\ z^{(i)}$로 정의가 되며, $i$ 는 traning example이다.
 
 Logistic Regression를 다시 정리하면 다음과 같다.  
   
 - $\hat{y} = \sigma(w^{T}x + b),\ \text{where } \sigma(z) = \frac{1}{1 + e^{-z}}$
 - $\text{Given } \{(x^{(1)}, y^{(1)}), \dots, (x^{(m)}, y^{(m)})\},\ \text{want } \hat{y}^{(i)} \approx y^{(i)}$
   
-그리고 Loss function으로 $\mathscr{L}(\hat{y}, y) = \frac{1}{2}(\hat{y} - y)^2$ 를 사용할 수 있다. 하지만, convex, 볼록한 부분이 있지 않기에 Local Optima, 국소 최적 (Parameter가 국소 최적에 빠져 더이상 개선이 되지 않음)에 빠질 가능성이 높기 때문에 적합하지 않다. 따라서 `Convex`한 최적화 Loss function을 정의해야 한다.  
+그리고 Loss function으로 $\mathscr{L}(\hat{y}, y) = \frac{1}{2}(\hat{y} - y)^2$ 를 사용할 수 있다. 하지만, convex, 볼록한 부분이 있지 않기에 Local Optima, 국소 최적 (Parameter가 국소 최적에 빠져 더이상 개선이 되지 않음)에 빠질 가능성이 높기 때문에 적합하지 않다. 따라서 `Convex`한 최적화 Loss function을 정의해야 한다.  
   
 $$\mathscr{L}(\hat{y}, y) = -(y \log \hat{y} + (1 - y) \log (1 - \hat{y}))$$
 
@@ -111,9 +111,9 @@ Cost function은 비용 함수이기 때문에, 최소화 되는 것이 적절�
 
 ![](https://global.discourse-cdn.com/dlai/original/3X/1/3/133adb05a8ab320f2d069daacaa20f21bbe63a9d.jpeg)
 
-$w,b$를 상수라 가정하여 $J(w,b)$가 최소화 되는 **parameter** $w,b$를 찾아야 한다.  
+$w,b$를 상수라 가정하여 $J(w,b)$가 최소화 되는 **parameter** $w,b$를 찾아야 한다.  
 
-$J$, Cost Function은 여러 Local Optima가 있는 Non-convex가 **아닌** `convex function`에 있기 때문에 이러한 cost function을 사용하게 되는 것이다.
+$J$, Cost Function은 여러 Local Optima가 있는 Non-convex가 **아닌** `convex function`에 있기 때문에 이러한 cost function을 사용하게 되는 것이다.
 
 **Gardient Descent**, 기울기 하강 알고리즘을 정리하자면
 
@@ -127,7 +127,7 @@ $$\text{Repeat: } \{ \ w := w - \alpha \underbrace{\frac{dJ(w)}{dw}}_{dw} \ \}$$
 > [!info] 수학 표기법
 $:=$ : 업데이트.
 
-미분항이 $dw$라면 $w:= w-\alpha dw$ 로 나타낼 수 있다. 여기서 $\alpha$는 Learning Rate $\mathbb{R}$ 이다. 우측을 기준으로 Gradient Descent을 시작하면 미분항 $dw$는 그 지점으로 기울기 $\mathbb{R}$이다. $\alpha$값도 $\mathbb{R}$, 미분항도 양수이기에 $w$의 값은 점점 감소하여 Global Optima로 향하게 된다. 왼쪽을 기준으로 Gradient Descent을 시작하면 기울기는 `음수`로 지정되어 $w$는 증가한다. 따라서 $w$가 증가함에 따라 Global Optima를 향하게 된다.
+미분항이 $dw$라면 $w:= w-\alpha dw$ 로 나타낼 수 있다. 여기서 $\alpha$는 Learning Rate $\mathbb{R}$ 이다. 우측을 기준으로 Gradient Descent을 시작하면 미분항 $dw$는 그 지점으로 기울기 $\mathbb{R}$이다. $\alpha$값도 $\mathbb{R}$, 미분항도 양수이기에 $w$의 값은 점점 감소하여 Global Optima로 향하게 된다. 왼쪽을 기준으로 Gradient Descent을 시작하면 기울기는 `음수`로 지정되어 $w$는 증가한다. 따라서 $w$가 증가함에 따라 Global Optima를 향하게 된다.
 
 지금까지는 Gradient Descent에서 $b$를 0으로 초기화하여 진행하였다. Logisitic Regression은 $w, b$ 두 개의 parameter가 존재하기에, $J(w,b)$에 대한 Gradient Descent는 다음과 같다.  
   
@@ -139,19 +139,19 @@ $\partial$ : 미적분학 표기법에 따르면 한개의 변수에 대한 미�
 ### Derivatives
 
 비전공자이고, 수학을 크게 잘하는 편이 아니였기 때문에 미분에 대해서 정리해봤습니다.  
-미분은 크게 얘기를 하면, 함수 내의 `기울기`를 구하는 것으로 생각하면 쉽습니다.  
+미분은 크게 얘기를 하면, 함수 내의 `기울기`를 구하는 것으로 생각하면 쉽습니다.  
 
 ![](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/definition-of-derivative-1628752678.png)
 
-위와 같이 2차원 선형 그래프시, x값의 변화에 따른 y값의 변화는 `기울기`를 의미하는데  
+위와 같이 2차원 선형 그래프시, x값의 변화에 따른 y값의 변화는 `기울기`를 의미하는데  
 만약 x축 a이 2일 경우 함수값에 의거하여 y값이 6이 될 것입니다.  
 그렇다면 a 가 2.001로 증가했을 경우에는 y값은 6.003 로 증가하다면,  
 x값 증가 변화량 0.001이 y값 증가 변화량 0.003 의 변화가 일어났기에  
-0.001 -> 0.003, `총 3배`가 이루어졌음으로 확인 할 수 있습니다.  
-이는 곧 `기울기가 3`이라는 뜻이고 함수로 정의하자면 아래와 같습니다.  
+0.001 -> 0.003, `총 3배`가 이루어졌음으로 확인 할 수 있습니다.  
+이는 곧 `기울기가 3`이라는 뜻이고 함수로 정의하자면 아래와 같습니다.  
 
 $$\frac{df_{(a)}}{da} = 3$$ 
-이 과정을 `미분`이라고 합니다.
+이 과정을 `미분`이라고 합니다.
 
 ## Computation Graph
 
@@ -165,13 +165,14 @@ $$J(a,b,c) = 3(a+bc)$$
 이 함수를 계산할 수 있는 아래와 같은 절차가 있다고 가정해보자.  
 
 $$\begin{matrix} &u,=& bc \\ &v,=& a+u \\ &J,=& 3v \end{matrix}$$  
-이 3가지 절차를 `Computation Graph`로 그리면 다음과 같다.
+
+이 3가지 절차를 `Computation Graph`로 그리면 다음과 같다.
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQeM9e%2FbtqFizwplQo%2FTUZMRha8WtFaqZ7pg2m8Q0%2Fimg.png)
 
-만약 \(a=5,;b=3,;c=2\)라면 \(u=6,;v=11\)으로 \(J\)는 곧 33이 된다.
+만약 $a=5,;b=3,;c=2$라면 $u=6,;v=11$으로 $J$는 곧 33이 된다.
 
-특정 값에 대한 변수가 있는 경우 (여기선 \(u, v\)) 계산 그래프로 보면 쉽게 알 수 있다.  
+특정 값에 대한 변수가 있는 경우 (여기선 $u, v$) 계산 그래프로 보면 쉽게 알 수 있다.  
 현재의 계산은 Forward Propagation 선전 계산이다.  
 그렇다면 Backword Propagation 역전 계산은 어떨까?
 
@@ -181,21 +182,21 @@ $$\begin{matrix} &u,=& bc \\ &v,=& a+u \\ &J,=& 3v \end{matrix}$$
 
 Forward Propagation 계산 값이 적혀진 Computation Graph이다.  
 미분을 통해서 $da,db,dc$ 값을 구해보자.  
-Backward Propagation 계산 절차는 Forward Propagation 계산의 절차의 `정 반대`이기 때문에 $J$의 $v$에 대한 미분을 먼저 구해야한다.
+Backward Propagation 계산 절차는 Forward Propagation 계산의 절차의 `정 반대`이기 때문에 $J$의 $v$에 대한 미분을 먼저 구해야한다.
 
-$J$는 $v$의 `변화량`에 따라 값이 변화되기 때문에  
+$J$는 $v$의 `변화량`에 따라 값이 변화되기 때문에  
 $J = 3v$일 때,  
 $v = 11$이 되고, $v=11.001$ 이 되면 $J=33.003$이 된다.  
-따라서 $\frac{dj}{dv}$는 `3`이 된다.
+따라서 $\frac{dj}{dv}$는 `3`이 된다.
 
 그 다음 $a$ 를 구하기 위해 $\frac{dj}{da}$를 구해야한다.  
 $v$는 $a$의 변화량에 따라 값이 변화되기 때문에,  
 $a = 5 \rightarrow 5.001$  
-$v = 11 \rightarrow 11.001$ 이므로 $a$의 변화량은 $v$의 변화량을 `1배` 증가시키기 때문에 $\frac{dv}{da}=1$이며,  
-$j = 33 \rightarrow 33.003$ 이므로 $a$의 변화량은 $j$의 변화량을 `3배` 증가시키게 된다.  
+$v = 11 \rightarrow 11.001$ 이므로 $a$의 변화량은 $v$의 변화량을 `1배` 증가시키기 때문에 $\frac{dv}{da}=1$이며,  
+$j = 33 \rightarrow 33.003$ 이므로 $a$의 변화량은 $j$의 변화량을 `3배` 증가시키게 된다.  
 따라서 $\frac{dj}{da}=3$ 이 되는 것이다.
 
-$a$가 $v$에 영향을 주어 $J$까지 영향을 주는 것, Derivatives에서는 이런 상황을 `chain rule(연쇄 법칙)`이라고 정의한다.  
+$a$가 $v$에 영향을 주어 $J$까지 영향을 주는 것, Derivatives에서는 이런 상황을 `chain rule(연쇄 법칙)`이라고 정의한다.  
 이를 한 문장으로 $a$값 변화가 $v$의 변화량 $\frac{x}{v}$값 변화가 $j$ 의 변화량 이며 아래와 같은 공식이 된다.
 
 실제 미분항들을 표기시 $d_{var}$라고 정의한다. $d_{var}$는 $var$값 변화시 최종 결과값 $J$의 변화량이며, $\frac{dj}{dvar}$을 의미한다.  
@@ -236,7 +237,7 @@ $$J(w,b)=\frac{1}{m}\sum_{i=1}^{m}\mathscr{L}(\hat{y}^{(i)},y^{(i)})$$
   
 위 Cost function을 $dw_{1}$으로 미분하면 다음과 같다.  
   
-$$\frac{\partial}{\partial w_{1}}J(w,b)=\frac{m}{1}\sum_{i=1}^{m}\underbrace{\frac{\partial}{\partial w_{1}}\mathscr{L}(\hat{a}^{(i)},\hat{y}^{(i)})} _{dw_{1}^{(i)}}$$
+$$\frac{\partial}{\partial w_{1}}J(w,b)=\frac{m}{1}\sum_{i=1}^{m}\underbrace{\frac{\partial}{\partial w_{1}}\mathscr{L}(\hat{a}^{(i)},\hat{y}^{(i)})} _{dw_{1}^{(i)}}$$
   
 각 Example의 $dw_{1}$을 구하고 평균치를 구하면, Gradient Descent에 바로 적용이 가능하다.  
 Gradient Descent를 코드(와 비슷하게)로 구현하면 아래와 같다.
@@ -262,7 +263,7 @@ J = J/m, dw_1 = dw_1/m, dw_2 = dw_2m, db = db/m
 
 계산을 수식을 확인해보면,  
 $\frac{d\mathscr{L}(a,y)}{dz} = a-y$ 수식을 볼 수 있다.  
-왜 이렇게 되는지 수식으로 알아보자. ~~사실 몰라도..뭐..~~
+왜 이렇게 되는지 수식으로 알아보자. ~~사실 몰라도..뭐..~~
 
 $$dz = \frac{d\mathscr{L}}{dz}=\frac{d\mathscr{L}(a,y)}{dz}=\frac{d\mathscr{L}(a,y)}{da}\times\frac{da}{dz}$$
 
