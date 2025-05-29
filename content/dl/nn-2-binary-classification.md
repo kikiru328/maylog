@@ -8,7 +8,7 @@ tags:
   - deeplearning/network
 permalink: /binary-classification-nn
 created: 2025-03-22T15:16
-updated: 2025-05-28T20:11
+updated: 2025-05-29T10:38
 socialImage: https://media1.tenor.com/m/GVk4jB2u_i8AAAAd/coding.gif
 ---
 <p align="center">
@@ -38,7 +38,7 @@ Neural Network, 신경망을 구현시에 필요한 기술은 여러가지가 �
 Nerual Network 설명에 들어가기 앞서, 우선 <u>표기법</u>을 알아보자.
 
 > [!info] 수학 표기법
-$\mathbb{R}$ : 실수(float)을 의미한다.
+> $\mathbb{R}$ : 실수(float)을 의미한다.
 
 1. 한 개의 example:    
    $(x, y), \quad x \in \mathbb{R}^{n_x}, \quad y \in \{0, 1\}$ : 
@@ -58,7 +58,7 @@ Logisitic Regression은 다음과 같이 정의된다.
 $$\text{Given } x, \text{ want } \hat{y} = P(y = 1 \mid x), \quad x \in \mathbb{R}^{n_x}$$
 
 > [!info] 수학 표기법
-$\hat{y}$ : y hat. y가 1이 될 수 있는 확률.
+> $\hat{y}$ : y hat. y가 1이 될 수 있는 확률.
   
 위 수식을 설명하면, 주어진 input x 에 대해서 y가 1이 될 수 있는 확률을 구하는 것이다. 그리고 Output의 parameter는 $w\in\mathbb{R}^{n_x}$ 와 $b\in\mathbb{R}$ 이므로 아래와 같다.  
 
@@ -97,7 +97,7 @@ $$\mathscr{L}(\hat{y}, y) = -(y \log \hat{y} + (1 - y) \log (1 - \hat{y}))$$
 $$\text{if } y = 1: \ \mathscr{L}(\hat{y}, y) = -\log \hat{y} \ \leftarrow \ \text{want } \log(\hat{y}) \text{ large, want } \hat{y} \text{ large}, \quad \text{if } y = 0: \ \mathscr{L}(\hat{y}, y) = -\log(1 - \hat{y}) \ \leftarrow \ \text{want } \log(1 - \hat{y}) \text{ large, want } \hat{y} \text{ small}$$
 
 > [!info] 수학 표기법
-$\mathscr{L}(\hat{y}, y)$ : $y$ 에 대한 $\hat{y}$의 손실함수 값.
+> $\mathscr{L}(\hat{y}, y)$ : $y$ 에 대한 $\hat{y}$의 손실함수 값.
 
 위에서 정의한 loss function은 하나의 Example에 대해서 정의되었기 때문에 Cost function을 정의하면 다음과 같다.  
 
@@ -125,7 +125,7 @@ $J$, Cost Function은 여러 Local Optima가 있는 Non-convex가 **아닌** `co
 $$\text{Repeat: } \{ \ w := w - \alpha \underbrace{\frac{dJ(w)}{dw}}_{dw} \ \}$$
 
 > [!info] 수학 표기법
-$:=$ : 업데이트.
+> $:=$ : 업데이트.
 
 미분항이 $dw$라면 $w:= w-\alpha dw$ 로 나타낼 수 있다. 여기서 $\alpha$는 Learning Rate $\mathbb{R}$ 이다. 우측을 기준으로 Gradient Descent을 시작하면 미분항 $dw$는 그 지점으로 기울기 $\mathbb{R}$이다. $\alpha$값도 $\mathbb{R}$, 미분항도 양수이기에 $w$의 값은 점점 감소하여 Global Optima로 향하게 된다. 왼쪽을 기준으로 Gradient Descent을 시작하면 기울기는 `음수`로 지정되어 $w$는 증가한다. 따라서 $w$가 증가함에 따라 Global Optima를 향하게 된다.
 
@@ -134,7 +134,7 @@ $:=$ : 업데이트.
 $$\text{Repeat: } \{ \ w := w - \alpha \frac{\partial J(w,b)}{\partial w},\ b := b - \alpha \frac{\partial J(w,b)}{\partial b} \ \}$$
 
 > [!info] 수학 표기법
-$\partial$ : 미적분학 표기법에 따르면 한개의 변수에 대한 미분은 \\(d\\), 두 개 이상의 변수는 $\partial$표시를 사용.
+> $\partial$ : 미적분학 표기법에 따르면 한개의 변수에 대한 미분은 \\(d\\), 두 개 이상의 변수는 $\partial$표시를 사용.
 
 ### Derivatives
 
@@ -203,7 +203,7 @@ $a$가 $v$에 영향을 주어 $J$까지 영향을 주는 것, Derivatives에서
 따라서 $\frac{dj}{da}$ 는 $da$. $\frac{dj}{dv}$는 $dv$이다.
 
 > [!info] 수학 표기법
-$var$ : variable, 변수이름
+> $var$ : variable, 변수이름
 
 이와 같은 방법으로 $du,db,dc$를 구할 수 있다.
 

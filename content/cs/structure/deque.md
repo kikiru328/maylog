@@ -8,7 +8,7 @@ tags:
   - cs/structure
 permalink: /queue
 created: 2025-03-22T15:16
-updated: 2025-05-28T21:43
+updated: 2025-05-28T21:44
 socialImage: https://media1.tenor.com/m/oiHwlpCubwEAAAAC/%EB%8F%99%EC%9E%91%EA%B7%B8%EB%A7%8C-%EB%B0%91%EC%9E%A5%EB%B9%BC%EA%B8%B0%EB%83%90.gif
 ---
 <p align="center">

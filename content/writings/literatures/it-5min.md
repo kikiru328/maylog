@@ -8,7 +8,7 @@ tags:
   - literatures/thoughts
 permalink: /it-5min
 created: 2025-03-22T15:16
-updated: 2025-05-28T20:31
+updated: 2025-05-29T16:03
 socialImage: https://media.tenor.com/Qg1iDHP_xWQAAAAi/simple-grady-smith.gif
 ---
 <p align="center">
