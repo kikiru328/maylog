@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /interrupt
 created: 2025-03-22T15:16
-updated: 2025-06-04T09:32
+updated: 2025-06-04T15:41
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3RwdGxicXdyZ3FzZmdhaHB6ZTI5a2xsb3hveWV5aWZ5enFtaGc5ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/P8FDI9Izj0ALcDqBdo/giphy.gif
 ---
 <p align="center">
@@ -19,7 +19,7 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3RwdGxicXdyZ3FzZm
 
 인터럽트는 무엇일까? 인터럽트, 영 단어 그 자체로, Interrupt. 방해한다는 뜻이다. 정상적인 프로그램의 실행을 방해하는 것을 의미한다. 우리는 이런 상황을 자주 마주하는데, 즐거운 얘기 중에 갑자이 맥을 끊고 자신에게 집중하라고 하는 친구가 있다면, 이 ~~새X~~, 이 분이 바로 `인터럽트`라고 볼 수 있겠다. 인터럽트가 발생한 후 모든 사람들은 이 분에게 집중한 이후, 이 분의 관심 요구 사항이 끝난다면 다시 원래의 얘기로 다시 돌아올 것이다. 바로 이 흐름이 [[cs/architecture/cpu|CPU]]와 인터럽트의 관계다.
 
-다시 인터럽트를 말하자면, **CPU가 수행 중인 작업을 일시 중단 시키는 일종의 신호**라고 볼 수 있다. 인터럽트도 일종의 신호인 만큼 다양한 환경에서 발생하는데, 크게 **동기 인터럽트 (synchronous interrupt)** 와 **비동기 인터럽트 (asynchronous interrupt)** 로 나누어진다. [[cs/os/sync-async|동기와 비동기는 여기서 확인할 수 있다.]]
+다시 인터럽트를 말하자면, **CPU가 수행 중인 작업을 일시 중단 시키는 일종의 신호**라고 볼 수 있다. 인터럽트도 일종의 신호인 만큼 다양한 환경에서 발생하는데, 크게 **동기 인터럽트 (synchronous interrupt)** 와 **비동기 인터럽트 (asynchronous interrupt)** 로 나누어진다. [[backend/performance/sync-async|동기와 비동기는 여기서 확인할 수 있다.]]
 
 ## 동기 인터럽트
 

@@ -8,7 +8,7 @@ tags:
   - backend/messaging
 permalink: /kafka
 created: 2025-03-22T15:16
-updated: 2025-05-30T11:31
+updated: 2025-06-04T15:40
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTR1eXRrYnB6ZDRyM3N1bjlnN3ZhYjI5N3Zwand1dzZnYnZ0cWZ6dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SCBMYV8nXzaO7tMfj3/giphy.gif
 ---
 <p align="center">
@@ -27,7 +27,7 @@ LinkendIn은 이를 해결하기 위해서 **분산 로그 기반 메시징 시�
 
 Kafka라는 이름은 소설가 **프란츠 카프카(Franz Kafka)** 에서 따온 것으로 알려져 있다. 소설가처럼 데이터를 기록하고, 흘려 보낸다는 로그 기반 철학과 동일하다.
 
-Kafka는 **분산 메시징 시스템**이다. 여러 시스템 간 데이터를 주고 받을 때, [[sync-async#^86d362|비동기적]]으로 **메시지를 전달**해주는 **중간자** 역할을 한다. Kafka는 다음과 같은 구조로 동작한다.
+Kafka는 **분산 메시징 시스템**이다. 여러 시스템 간 데이터를 주고 받을 때, [[backend/performance/sync-async#^86d362|비동기적]]으로 **메시지를 전달**해주는 **중간자** 역할을 한다. Kafka는 다음과 같은 구조로 동작한다.
 
 ```mermaid
 graph TD

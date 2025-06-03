@@ -8,7 +8,7 @@ tags:
   - backend/infrastructure
 permalink: /celery
 created: 2025-03-22T15:16
-updated: 2025-06-04T15:34
+updated: 2025-06-04T15:39
 socialImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWNlc3FuZnZwajF6Zm81N3ZoOXB6eGI5Y3AweTI0Y2g3dG51a3g3ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oWXYimsCBxvB6/giphy.gif
 ---
 <p align="center">
@@ -17,7 +17,7 @@ socialImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWNlc3FuZnZwajF6Z
 
 # Celery 란
 
-Celery는 파이썬에서 가장 많이 쓰이는 [[sync-async#^af7513|비동기]] 작업 큐 프레임워크이다. 시간이 오래 걸리는 작업을 백그라운드에서 따로 처리를 해주는 시스템이기에 python backend에서 자주 사용되는 프레임워크다.
+Celery는 파이썬에서 가장 많이 쓰이는 [[backend/performance/sync-async#^af7513|비동기]] 작업 큐 프레임워크이다. 시간이 오래 걸리는 작업을 백그라운드에서 따로 처리를 해주는 시스템이기에 python backend에서 자주 사용되는 프레임워크다.
 
 ## 특징
 

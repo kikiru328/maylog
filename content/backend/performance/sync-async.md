@@ -8,7 +8,7 @@ tags:
   - cs/os
 permalink: /sync-async
 created: 2025-03-22T15:16
-updated: 2025-06-04T09:58
+updated: 2025-06-04T14:57
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDg3cnhvamN4dHU2dGViN3BtcDFoNGR5bWFtZzYwcXNheDUxNGpmZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hyQ8ESUyePo2s/giphy.gif
 ---
 <p align="center">
@@ -30,6 +30,8 @@ socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDg3cnhvamN4dHU2dG
 관련 예를 들면, 우리가 은행에서는 은행 직원에게 요청을 하고, 직원의 응답 결과에 따라 우리는 일을 진행하게 된다. 만약 기다리지 않고 *관련된* 업무를 진행하려고 해도, 진행할 수가 없다.
 
 ### 비동기 (Asynchronous)
+
+^af7513
 
 비동기 방식은, 작업 요청만 하고 결과는 나중에 받는 형식이다. 작업 요청자는 응답과 무관하게 다음 작업을 바로 시작한다는 것이다. ^86d362
 
