@@ -7,7 +7,7 @@ draft: false
 tags: 
 permalink: 
 created: 2025-03-24T11:42
-updated: 2025-06-04T15:45
+updated: 2025-06-09T10:21
 socialImage: og-image.png
 comments: "false"
 ---
@@ -18,6 +18,7 @@ comments: "false"
 </p>
 
 안녕하세요.  
+
 이 블로그는 제가 개발에 대해서 경험한 내용들을 기록하는 공간입니다.  
 [[cs/index|컴퓨터 공학 이론]], [[backend/index|백엔드 관련]], [[dl/index|딥러닝 이론]] 등을 학습하고, 정리하며 성장하고 있습니다.
 
@@ -29,6 +30,9 @@ comments: "false"
 글로서 정리하고 있습니다.
 
 오셔서 감사드리며, 같이 댓글로 의견을 나누었으면 좋겠습니다.
+
+저의 개발 내용과 이력은 아래의 Github Repository에 있습니다.  
+https://github.com/kikiru328
 
 -maylog
 
