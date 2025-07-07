@@ -8,7 +8,7 @@ tags:
   - backend/performance
 permalink: /rate-limiting
 created: 2025-03-22T15:16
-updated: 2025-07-07T12:50
+updated: 2025-07-07T13:15
 socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHY0bDExOGY2OWkyYWt6a2RvZG80NjB4ejgzMDUxczRyZWRmNXBtcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2YWzcnnPFGF7SOYg/giphy.gif
 ---
 <p align="center"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHY0bDExOGY2OWkyYWt6a2RvZG80NjB4ejgzMDUxczRyZWRmNXBtcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2YWzcnnPFGF7SOYg/giphy.gif" alt="Rate Limiting" width="300"> </p>
@@ -184,7 +184,7 @@ def is_allowed(self, identifier: str, tokens_needed: int = 1) -> Dict[str, Any]:
 **장점**: 버스트 허용으로 사용자 경험이 좋다, 유연하다   
 **단점**: 순간적 과부하 가능성
 
-## 실제 구현해보기: Python + Redis
+## 실제 구현해보기: Python + [[redis|redis]]
 
 이제 이론을 실제 코드로 만들어보자. 전체 구현 코드는 [GitHub 레포지토리](https://github.com/kikiru328/TIL/tree/main/Backends/RateLimiting)에서 확인할 수 있다.
 
@@ -360,7 +360,7 @@ Token Bucket: key → {tokens, last_refill} (16바이트)
 Race Condition을 방지하기 위해:
 
 - Redis Pipeline 사용
-- Lua 스크립트로 원자적 연산
+- Lua 스크립트로 원자적 연산 (한번에 처리)
 - 적절한 만료시간 설정
 
 ## 실제 서비스에 적용한다면?
@@ -384,15 +384,15 @@ Race Condition을 방지하기 위해:
 
 ## 결론
 
-Rate Limiting은 결과를 직접 돌려주지 않지만, 그 대신 **대규모 트래픽**을 유연하게 처리하고, **서버를 보호하고**, **공정한 서비스**를 제공하는 핵심 기술이다.  
-
 **"모든 자원은 유한하다."**
 
-Rate Limiting은 제한된 자원을 **공정하고 안전하게** 분배하는 핵심 기술이다. 빠른 응답보다 **안정적인 서비스**, 단순한 구현보다 **상황에 맞는 선택**을 고민한다면 Rate Limiting은 강력한 도구가 될 것이다.
+Rate Limiting은 결과를 직접 돌려주지 않지만, 그 대신 **대규모 트래픽**을 유연하게 처리하고, **서버를 보호하고**, **공정한 서비스**를 제공하는 핵심 기술이다.  
 
-마지막으로, 이론만 아는 것과 직접 구현해보는 것은 완전히 다르다. [GitHub 레포지토리](https://github.com/kikiru328/TIL/tree/main/Backends/RateLimiting)의 코드를 직접 실행해보고, 각 알고리즘의 차이점을 몸소 느껴보길 추천한다.
+Rate Limiting은 제한된 자원을 **공정하고 안전하게** 분배하는 핵심 기술이다. 빠른 응답보다 **안정적인 서비스**, 단순한 구현보다 **상황에 맞는 선택**을 고민한다면 Rate Limiting은 강력한 도구가 될 것이라 생각한다.  
 
-그때서야 진정한 Rate Limiting의 매력을 알게 될 것이다.
+> [!hint] Code Repository
+> [Rate Limiting (repository)](https://github.com/kikiru328/TIL/tree/main/Backends/RateLimiting)의 코드를 직접 실행해볼 수 있다.
+> 각 알고리즘의 차이점을 확인할 수 있다.
 
 </br></br></br>
 # 참고자료
