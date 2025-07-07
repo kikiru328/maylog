@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /gpu
 created: 2025-03-22T15:16
-updated: 2025-06-04T09:44
+updated: 2025-06-13T11:26
 socialImage: https://media.giphy.com/media/vfIzAJfET0agoqEjFd/giphy.gif?cid=ecf05e472vkj3vt69rh1t0nk03i98hqef8gf1h5xekxbwt98&ep=v1_gifs_search&rid=giphy.gif&ct=g
 ---
 <p align="center">
@@ -21,7 +21,7 @@ GPU, 그래픽 카드. 게임을 좋아하거나 디자인, 심지어 인공지�
 
 ## GPU는 그래픽만 연산하는가
 
-대규모 그래픽 연산을 처리하기 위한 장치로, 복잡한 화면이나 3D 랜더링 등을 위해 처리하는 것을 기본으로 한다. 하지만 그것 뿐 아니다. 최근 GPU의 경우 [[cpu|cpu]]의 연산 범위까지 확장되어 있다. 인공지능에서 사용되는 딥러닝 연산, 가상화폐 책굴 등 다양한 분야에서 연산이 가능해졌다. 그래서 이제는 그냥 단순히 **GPU**가 아닌 **GPGPU, General Purpose computing on GPU**라고 한다.
+대규모 그래픽 연산을 처리하기 위한 장치로, 복잡한 화면이나 3D 랜더링 등을 위해 처리하는 것을 기본으로 한다. 하지만 그것 뿐 아니다. 최근 GPU의 경우 [[content/cs/architecture/cpu|cpu]]의 연산 범위까지 확장되어 있다. 인공지능에서 사용되는 딥러닝 연산, 가상화폐 책굴 등 다양한 분야에서 연산이 가능해졌다. 그래서 이제는 그냥 단순히 **GPU**가 아닌 **GPGPU, General Purpose computing on GPU**라고 한다.
 
 ## 멀티-멀티코어, GPU
 

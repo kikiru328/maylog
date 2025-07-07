@@ -8,7 +8,7 @@ tags:
   - cs/computer
 permalink: /control-unit
 created: 2025-03-22T15:16
-updated: 2025-06-04T09:44
+updated: 2025-06-13T11:26
 socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc213ajBxM2UycGxjZzhnZ2prbXh5cTBxYzU2d2JtazZ5c2JmMGc0OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ofSBiM95Lzb5tg1Fu/giphy.gif
 ---
 <p align="center">
@@ -55,7 +55,7 @@ socialImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc213ajBxM2UycGxjZ
 | 하드와이어드   | 회로로 고정된 제어   | 빠르지만 고정 |
 | 마이크로프로그램 | 마이크로 명령으로 저장 | 느리지만 유연 |
 
-대부분의 [[cpu#^cisc-risc|RISC]] CPU는 하드와이어드, 복잡한 [[cpu#^cisc-risc|CISC]] CPU는 마이크로 프로그램 방식을 사용한다.
+대부분의 [[content/cs/architecture/cpu#^cisc-risc|RISC]] CPU는 하드와이어드, 복잡한 [[content/cs/architecture/cpu#^cisc-risc|CISC]] CPU는 마이크로 프로그램 방식을 사용한다.
 
 </br></br></br>
 # 참고자료

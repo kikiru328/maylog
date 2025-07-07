@@ -8,7 +8,7 @@ tags:
   - algorithm/basic
 permalink: /basic-math
 created: 2025-03-22T15:16
-updated: 2025-05-29T16:09
+updated: 2025-06-16T07:13
 socialImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTVjbHU0NjUxbDkydTUxbXpxeXZvc2M5NDIwdjUxMHR6bXh3dWFmYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gEvab1ilmJjA82FaSV/giphy.gif
 ---
 <p align="center">
