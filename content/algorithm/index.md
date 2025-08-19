@@ -2,28 +2,29 @@
 title: Algorithm
 aliases:
   - algorithm
-description: Algorithm PBL Contents
+description: 알고리즘, 코딩테스트 관련 모음
 draft: false
-tags: 
+tags:
 permalink: /contents
 created: 2025-05-28T07:37
-updated: 2025-05-29T15:14
-socialImage: https://media1.tenor.com/m/7XPj9P6aH0AAAAAC/lets-talk-about-the-algorithm-luis-suarez.gif
+updated: 2025-08-19T12:33
+socialImage: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzZneDZnM3U0bXl1dW9lZnMzZ3diN3lmdmtwbmM3MjBsbng3ZGgzZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/AXorq76Tg3Vte/giphy.gif
 comments: "false"
 ---
 <p align="center">
-  <img src="https://media1.tenor.com/m/7XPj9P6aH0AAAAAC/lets-talk-about-the-algorithm-luis-suarez.gif" width="300" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzZneDZnM3U0bXl1dW9lZnMzZ3diN3lmdmtwbmM3MjBsbng3ZGgzZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/AXorq76Tg3Vte/giphy.gif" alt="Image" width="300">
 </p>
+
 # 알고리즘
 
-쉽게 말하자면, **"공략집"** 으로 보면 된다.    
-업무의 프로세스가 어떻게 되는지, 문제 해결에 필요한 과정을 적어둔 **"메뉴얼"** 같은 것이다.  
+알고리즘은 [[content/cs/index|cs]]에 포함된 [[content/cs/structure/index|자료구조]]와 가장 연관된 내용이다.  
+알고리즘, 특히 코딩테스트는 `코드를 어떻게 잘 짜는가?`라기 보다는  
+`문제를 어떻게 효율적으로 해결하냐`를 확인하는 것이다.
 
-# 자주 쓰이는 것들
+여러 알고리즘 테스트나 학습을 했지만 그냥 내가 할 수 있는 가장 기초이자  
+가장 테스트에 가까운 책을 하나 골라서 끝내볼 예정이다.
 
-- [[basic-math#^ffaf8e|약수]]
-- [[basic-math#^0eec13|소수]]
-	- [[basic-math#^a5e8f5|에라토스테네스]]
+
 
 ---
 
